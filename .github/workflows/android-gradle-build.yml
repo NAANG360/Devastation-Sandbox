@@ -136,7 +136,6 @@ jobs:
           name: godot-android-gradle-diagnostics
           path: |
             ~/.gradle/daemon/
-            ~/.local/share/godot/
             android/build/build/outputs/
           if-no-files-found: ignore
           retention-days: 7
