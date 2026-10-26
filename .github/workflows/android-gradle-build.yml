@@ -107,7 +107,6 @@ jobs:
           grep -q '^gradle_build/use_gradle_build=true$' export_presets.cfg
           test -f android/build/gradlew
           "$GODOT_BIN" --headless --editor --path "$GITHUB_WORKSPACE" --import
-          "$GODOT_BIN" --headless --path "$GITHUB_WORKSPACE" --quit
 
       - name: Export Android debug APK using Gradle
         shell: bash
