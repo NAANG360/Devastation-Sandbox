@@ -1,0 +1,2604 @@
+.
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── .nomedia
+├── 1781628500915.png
+├── 1781628697929.png
+├── 2015_toyota_fortuner.glb
+├── 2015_toyota_fortuner_0.png
+├── 2015_toyota_fortuner_1.png
+├── 2015_toyota_fortuner_10.png
+├── 2015_toyota_fortuner_11.png
+├── 2015_toyota_fortuner_12.png
+├── 2015_toyota_fortuner_2.png
+├── 2015_toyota_fortuner_3.png
+├── 2015_toyota_fortuner_4.png
+├── 2015_toyota_fortuner_5.png
+├── 2015_toyota_fortuner_6.png
+├── 2015_toyota_fortuner_7.png
+├── 2015_toyota_fortuner_8.png
+├── 2015_toyota_fortuner_9.png
+├── 2022_toyota_land_cruiser_300_vx_0.png
+├── 2022_toyota_land_cruiser_300_vx_1.png
+├── 2022_toyota_land_cruiser_300_vx_10.png
+├── 2022_toyota_land_cruiser_300_vx_11.png
+├── 2022_toyota_land_cruiser_300_vx_12.png
+├── 2022_toyota_land_cruiser_300_vx_13.png
+├── 2022_toyota_land_cruiser_300_vx_14.png
+├── 2022_toyota_land_cruiser_300_vx_15.png
+├── 2022_toyota_land_cruiser_300_vx_16.png
+├── 2022_toyota_land_cruiser_300_vx_17.png
+├── 2022_toyota_land_cruiser_300_vx_18.png
+├── 2022_toyota_land_cruiser_300_vx_19.png
+├── 2022_toyota_land_cruiser_300_vx_2.png
+├── 2022_toyota_land_cruiser_300_vx_20.png
+├── 2022_toyota_land_cruiser_300_vx_21.png
+├── 2022_toyota_land_cruiser_300_vx_22.png
+├── 2022_toyota_land_cruiser_300_vx_3.png
+├── 2022_toyota_land_cruiser_300_vx_4.png
+├── 2022_toyota_land_cruiser_300_vx_5.png
+├── 2022_toyota_land_cruiser_300_vx_6.png
+├── 2022_toyota_land_cruiser_300_vx_7.png
+├── 2022_toyota_land_cruiser_300_vx_8.png
+├── 2022_toyota_land_cruiser_300_vx_9.png
+├── BeastFragment.gd
+├── BeastFragment.gd.uid
+├── C4.tscn
+├── CarBgMusic.mp3
+├── CarHorn.mp3
+├── CarIdling.mp3
+├── CarTurbo.mp3
+├── GlobalData.gd
+├── GlobalData.gd.bak
+├── GlobalData.gd.uid
+├── HornIcon.png
+├── InteractIcon.png
+├── Kamui.tscn
+├── LoginScreen.tscn
+├── Minecraft.ttf
+├── NEWASSAULTRIFLE.glb
+├── NEWASSAULTRIFLE_0.png
+├── NEWASSAULTRIFLE_1.png
+├── NEWASSAULTRIFLE_2.png
+├── NPC_Idle.gltf
+├── NPC_Walk.gltf
+├── Newlandcruiser.glb
+├── Newlandcruiser_0.jpg
+├── Newlandcruiser_1.png
+├── Noeffect.ttf
+├── PoliceNPC.tscn
+├── Pui
+│   └── 1000105233-Photoroom.png
+├── Rangerover.tscn
+├── SD Macross Factory Worker.glb
+├── Undertale.ttf
+├── abilities.gd
+├── abilities.gd.uid
+├── about_screen.gd
+├── about_screen.gd.uid
+├── adcolony
+│   ├── libs
+│   │   ├── poing-godot-admob-adcolony-debug.aar
+│   │   └── poing-godot-admob-adcolony-release.aar
+│   ├── poing_godot_admob_adcolony.gd
+│   └── poing_godot_admob_adcolony.gd.uid
+├── addons
+│   ├── VirtualSteering
+│   │   ├── icon.png
+│   │   ├── steering.gd
+│   │   ├── steering.gd.uid
+│   │   ├── textures
+│   │   │   └── steerin_wheel.png
+│   │   ├── virtual-steering.gd
+│   │   ├── virtual-steering.gd.uid
+│   │   └── virtual_steering.scn
+│   ├── admob
+│   │   ├── .gitignore
+│   │   ├── LICENSE
+│   │   ├── admob.gd
+│   │   ├── admob.gd.uid
+│   │   ├── android
+│   │   │   ├── .gitignore
+│   │   │   ├── bin
+│   │   │   │   ├── adcolony
+│   │   │   │   │   ├── libs
+│   │   │   │   │   │   ├── poing-godot-admob-adcolony-debug.aar
+│   │   │   │   │   │   └── poing-godot-admob-adcolony-release.aar
+│   │   │   │   │   ├── poing_godot_admob_adcolony.gd
+│   │   │   │   │   └── poing_godot_admob_adcolony.gd.uid
+│   │   │   │   ├── ads
+│   │   │   │   │   ├── libs
+│   │   │   │   │   │   ├── poing-godot-admob-ads-debug.aar
+│   │   │   │   │   │   ├── poing-godot-admob-ads-release.aar
+│   │   │   │   │   │   ├── poing-godot-admob-core-debug.aar
+│   │   │   │   │   │   └── poing-godot-admob-core-release.aar
+│   │   │   │   │   ├── poing_godot_admob_ads.gd
+│   │   │   │   │   └── poing_godot_admob_ads.gd.uid
+│   │   │   │   ├── meta
+│   │   │   │   │   ├── libs
+│   │   │   │   │   │   ├── poing-godot-admob-meta-debug.aar
+│   │   │   │   │   │   └── poing-godot-admob-meta-release.aar
+│   │   │   │   │   ├── poing_godot_admob_meta.gd
+│   │   │   │   │   └── poing_godot_admob_meta.gd.uid
+│   │   │   │   ├── package.gd
+│   │   │   │   ├── package.gd.uid
+│   │   │   │   └── vungle
+│   │   │   │       ├── libs
+│   │   │   │       │   ├── poing-godot-admob-vungle-debug.aar
+│   │   │   │       │   └── poing-godot-admob-vungle-release.aar
+│   │   │   │       ├── poing_godot_admob_vungle.gd
+│   │   │   │       └── poing_godot_admob_vungle.gd.uid
+│   │   │   ├── config.gd
+│   │   │   └── config.gd.uid
+│   │   ├── assets
+│   │   │   ├── android.png
+│   │   │   ├── arrow_left.svg
+│   │   │   ├── arrow_right.svg
+│   │   │   ├── donate
+│   │   │   │   ├── Ko-fi_Logo_RGB_ColorBg.png
+│   │   │   │   ├── Patreon_logo_with_wordmark.svg
+│   │   │   │   └── PayPal.svg
+│   │   │   ├── fonts
+│   │   │   │   ├── arial.ttf
+│   │   │   │   └── orange_juice_2_0.ttf
+│   │   │   ├── format-app-open.svg
+│   │   │   ├── format-banner.svg
+│   │   │   ├── format-interstitial.svg
+│   │   │   ├── format-native.svg
+│   │   │   ├── format-rewarded-interstitial.svg
+│   │   │   ├── icon-1024.png
+│   │   │   ├── icon-120.png
+│   │   │   ├── icon-15.png
+│   │   │   ├── icon-500.png
+│   │   │   ├── icon-76.png
+│   │   │   ├── ios.png
+│   │   │   ├── music.ogg
+│   │   │   ├── poing.jpeg
+│   │   │   ├── pos_bottom.svg
+│   │   │   ├── pos_bottom_left.svg
+│   │   │   ├── pos_bottom_right.svg
+│   │   │   ├── pos_center.svg
+│   │   │   ├── pos_left.svg
+│   │   │   ├── pos_right.svg
+│   │   │   ├── pos_top.svg
+│   │   │   ├── pos_top_left.svg
+│   │   │   ├── pos_top_right.svg
+│   │   │   └── theme_modern.tres
+│   │   ├── csharp
+│   │   │   ├── .gdignore
+│   │   │   ├── sample
+│   │   │   │   ├── MainCSharpExample.cs
+│   │   │   │   ├── MainCSharpExample.cs.uid
+│   │   │   │   ├── MainCSharpExample.tscn
+│   │   │   │   ├── SafeArea.cs
+│   │   │   │   ├── SafeArea.cs.uid
+│   │   │   │   ├── SampleRegistry.cs
+│   │   │   │   ├── SampleRegistry.cs.uid
+│   │   │   │   └── tabs
+│   │   │   │       ├── Banner.cs
+│   │   │   │       ├── Banner.cs.uid
+│   │   │   │       ├── Banner.tscn
+│   │   │   │       ├── Interstitial.cs
+│   │   │   │       ├── Interstitial.cs.uid
+│   │   │   │       ├── Interstitial.tscn
+│   │   │   │       ├── MobileAds.cs
+│   │   │   │       ├── MobileAds.cs.uid
+│   │   │   │       ├── Rewarded.cs
+│   │   │   │       ├── Rewarded.cs.uid
+│   │   │   │       ├── Rewarded.tscn
+│   │   │   │       ├── RewardedInterstitial.cs
+│   │   │   │       ├── RewardedInterstitial.cs.uid
+│   │   │   │       ├── RewardedInterstitial.tscn
+│   │   │   │       ├── Ump.cs
+│   │   │   │       ├── Ump.cs.uid
+│   │   │   │       └── Ump.tscn
+│   │   │   └── src
+│   │   │       ├── Api
+│   │   │       │   ├── AdView.cs
+│   │   │       │   ├── AdView.cs.uid
+│   │   │       │   ├── Core
+│   │   │       │   │   ├── AdError.cs
+│   │   │       │   │   ├── AdError.cs.uid
+│   │   │       │   │   ├── AdPosition.cs
+│   │   │       │   │   ├── AdPosition.cs.uid
+│   │   │       │   │   ├── AdRequest.cs
+│   │   │       │   │   ├── AdRequest.cs.uid
+│   │   │       │   │   ├── AdSize.cs
+│   │   │       │   │   ├── AdSize.cs.uid
+│   │   │       │   │   ├── AdapterResponseInfo.cs
+│   │   │       │   │   ├── AdapterResponseInfo.cs.uid
+│   │   │       │   │   ├── AdapterStatus.cs
+│   │   │       │   │   ├── AdapterStatus.cs.uid
+│   │   │       │   │   ├── LoadAdError.cs
+│   │   │       │   │   ├── LoadAdError.cs.uid
+│   │   │       │   │   ├── RequestConfiguration.cs
+│   │   │       │   │   ├── RequestConfiguration.cs.uid
+│   │   │       │   │   ├── ResponseInfo.cs
+│   │   │       │   │   ├── ResponseInfo.cs.uid
+│   │   │       │   │   ├── RewardedItem.cs
+│   │   │       │   │   ├── RewardedItem.cs.uid
+│   │   │       │   │   ├── ServerSideVerificationOptions.cs
+│   │   │       │   │   └── ServerSideVerificationOptions.cs.uid
+│   │   │       │   ├── InitializationStatus.cs
+│   │   │       │   ├── InitializationStatus.cs.uid
+│   │   │       │   ├── InterstitialAd.cs
+│   │   │       │   ├── InterstitialAd.cs.uid
+│   │   │       │   ├── InterstitialAdLoader.cs
+│   │   │       │   ├── InterstitialAdLoader.cs.uid
+│   │   │       │   ├── Listeners
+│   │   │       │   │   ├── AdListener.cs
+│   │   │       │   │   ├── AdListener.cs.uid
+│   │   │       │   │   ├── FullScreenContentCallback.cs
+│   │   │       │   │   ├── FullScreenContentCallback.cs.uid
+│   │   │       │   │   ├── InterstitialAdLoadCallback.cs
+│   │   │       │   │   ├── InterstitialAdLoadCallback.cs.uid
+│   │   │       │   │   ├── OnInitializationCompleteListener.cs
+│   │   │       │   │   ├── OnInitializationCompleteListener.cs.uid
+│   │   │       │   │   ├── OnUserEarnedRewardListener.cs
+│   │   │       │   │   ├── OnUserEarnedRewardListener.cs.uid
+│   │   │       │   │   ├── RewardedAdLoadCallback.cs
+│   │   │       │   │   ├── RewardedAdLoadCallback.cs.uid
+│   │   │       │   │   ├── RewardedInterstitialAdLoadCallback.cs
+│   │   │       │   │   └── RewardedInterstitialAdLoadCallback.cs.uid
+│   │   │       │   ├── MobileAds.cs
+│   │   │       │   ├── MobileAds.cs.uid
+│   │   │       │   ├── RewardedAd.cs
+│   │   │       │   ├── RewardedAd.cs.uid
+│   │   │       │   ├── RewardedAdLoader.cs
+│   │   │       │   ├── RewardedAdLoader.cs.uid
+│   │   │       │   ├── RewardedInterstitialAd.cs
+│   │   │       │   ├── RewardedInterstitialAd.cs.uid
+│   │   │       │   ├── RewardedInterstitialAdLoader.cs
+│   │   │       │   └── RewardedInterstitialAdLoader.cs.uid
+│   │   │       ├── Core
+│   │   │       │   ├── MobileSingletonPlugin.cs
+│   │   │       │   └── MobileSingletonPlugin.cs.uid
+│   │   │       ├── Mediation
+│   │   │       │   ├── Extras
+│   │   │       │   │   ├── AdColony
+│   │   │       │   │   │   ├── AdColonyAppOptions.cs
+│   │   │       │   │   │   ├── AdColonyAppOptions.cs.uid
+│   │   │       │   │   │   ├── AdColonyMediationExtras.cs
+│   │   │       │   │   │   └── AdColonyMediationExtras.cs.uid
+│   │   │       │   │   ├── Meta
+│   │   │       │   │   │   ├── FBAdSettings.cs
+│   │   │       │   │   │   └── FBAdSettings.cs.uid
+│   │   │       │   │   └── Vungle
+│   │   │       │   │       ├── Vungle.cs
+│   │   │       │   │       ├── Vungle.cs.uid
+│   │   │       │   │       ├── VungleInterstitialMediationExtras.cs
+│   │   │       │   │       ├── VungleInterstitialMediationExtras.cs.uid
+│   │   │       │   │       ├── VungleMediationExtras.cs
+│   │   │       │   │       ├── VungleMediationExtras.cs.uid
+│   │   │       │   │       ├── VungleRewardedMediationExtras.cs
+│   │   │       │   │       └── VungleRewardedMediationExtras.cs.uid
+│   │   │       │   ├── MediationExtras.cs
+│   │   │       │   └── MediationExtras.cs.uid
+│   │   │       └── Ump
+│   │   │           ├── Api
+│   │   │           │   ├── ConsentForm.cs
+│   │   │           │   ├── ConsentForm.cs.uid
+│   │   │           │   ├── ConsentInformation.cs
+│   │   │           │   ├── ConsentInformation.cs.uid
+│   │   │           │   ├── UserMessagingPlatform.cs
+│   │   │           │   └── UserMessagingPlatform.cs.uid
+│   │   │           └── Core
+│   │   │               ├── ConsentDebugSettings.cs
+│   │   │               ├── ConsentDebugSettings.cs.uid
+│   │   │               ├── ConsentRequestParameters.cs
+│   │   │               ├── ConsentRequestParameters.cs.uid
+│   │   │               ├── DebugGeography.cs
+│   │   │               ├── DebugGeography.cs.uid
+│   │   │               ├── FormError.cs
+│   │   │               └── FormError.cs.uid
+│   │   ├── docs
+│   │   │   ├── architecture
+│   │   │   │   ├── general.md
+│   │   │   │   └── lifecycle.md
+│   │   │   └── errors
+│   │   │       └── ERR_002.md
+│   │   ├── downloads
+│   │   │   ├── .gitkeep
+│   │   │   ├── android
+│   │   │   │   └── poing-godot-admob-android-v4.7.0.zip
+│   │   │   └── ios
+│   │   │       └── poing-godot-admob-ios-v4.7.0.zip
+│   │   ├── gdscript
+│   │   │   ├── sample
+│   │   │   │   ├── Main.gd
+│   │   │   │   ├── Main.gd.uid
+│   │   │   │   ├── Main.tscn
+│   │   │   │   ├── SafeArea.gd
+│   │   │   │   ├── SafeArea.gd.uid
+│   │   │   │   └── tabs
+│   │   │   │       ├── Banner.gd
+│   │   │   │       ├── Banner.gd.uid
+│   │   │   │       ├── Banner.tscn
+│   │   │   │       ├── Interstitial.gd
+│   │   │   │       ├── Interstitial.gd.uid
+│   │   │   │       ├── Interstitial.tscn
+│   │   │   │       ├── MobileAds.gd
+│   │   │   │       ├── MobileAds.gd.uid
+│   │   │   │       ├── Rewarded.gd
+│   │   │   │       ├── Rewarded.gd.uid
+│   │   │   │       ├── Rewarded.tscn
+│   │   │   │       ├── RewardedInterstitial.gd
+│   │   │   │       ├── RewardedInterstitial.gd.uid
+│   │   │   │       ├── RewardedInterstitial.tscn
+│   │   │   │       ├── Ump.gd
+│   │   │   │       ├── Ump.gd.uid
+│   │   │   │       └── Ump.tscn
+│   │   │   └── src
+│   │   │       ├── api
+│   │   │       │   ├── AdView.gd
+│   │   │       │   ├── AdView.gd.uid
+│   │   │       │   ├── InitializationStatus.gd
+│   │   │       │   ├── InitializationStatus.gd.uid
+│   │   │       │   ├── InterstitialAd.gd
+│   │   │       │   ├── InterstitialAd.gd.uid
+│   │   │       │   ├── InterstitialAdLoader.gd
+│   │   │       │   ├── InterstitialAdLoader.gd.uid
+│   │   │       │   ├── MobileAds.gd
+│   │   │       │   ├── MobileAds.gd.uid
+│   │   │       │   ├── RewardedAd.gd
+│   │   │       │   ├── RewardedAd.gd.uid
+│   │   │       │   ├── RewardedAdLoader.gd
+│   │   │       │   ├── RewardedAdLoader.gd.uid
+│   │   │       │   ├── RewardedInterstitialAd.gd
+│   │   │       │   ├── RewardedInterstitialAd.gd.uid
+│   │   │       │   ├── RewardedInterstitialAdLoader.gd
+│   │   │       │   ├── RewardedInterstitialAdLoader.gd.uid
+│   │   │       │   ├── core
+│   │   │       │   │   ├── AdError.gd
+│   │   │       │   │   ├── AdError.gd.uid
+│   │   │       │   │   ├── AdPosition.gd
+│   │   │       │   │   ├── AdPosition.gd.uid
+│   │   │       │   │   ├── AdRequest.gd
+│   │   │       │   │   ├── AdRequest.gd.uid
+│   │   │       │   │   ├── AdSize.gd
+│   │   │       │   │   ├── AdSize.gd.uid
+│   │   │       │   │   ├── AdapterResponseInfo.gd
+│   │   │       │   │   ├── AdapterResponseInfo.gd.uid
+│   │   │       │   │   ├── AdapterStatus.gd
+│   │   │       │   │   ├── AdapterStatus.gd.uid
+│   │   │       │   │   ├── LoadAdError.gd
+│   │   │       │   │   ├── LoadAdError.gd.uid
+│   │   │       │   │   ├── RequestConfiguration.gd
+│   │   │       │   │   ├── RequestConfiguration.gd.uid
+│   │   │       │   │   ├── ResponseInfo.gd
+│   │   │       │   │   ├── ResponseInfo.gd.uid
+│   │   │       │   │   ├── RewardedItem.gd
+│   │   │       │   │   ├── RewardedItem.gd.uid
+│   │   │       │   │   ├── ServerSideVerificationOptions.gd
+│   │   │       │   │   └── ServerSideVerificationOptions.gd.uid
+│   │   │       │   └── listeners
+│   │   │       │       ├── AdListener.gd
+│   │   │       │       ├── AdListener.gd.uid
+│   │   │       │       ├── FullScreenContentCallback.gd
+│   │   │       │       ├── FullScreenContentCallback.gd.uid
+│   │   │       │       ├── InterstitialAdLoadCallback.gd
+│   │   │       │       ├── InterstitialAdLoadCallback.gd.uid
+│   │   │       │       ├── OnInitializationCompleteListener.gd
+│   │   │       │       ├── OnInitializationCompleteListener.gd.uid
+│   │   │       │       ├── OnUserEarnedRewardListener.gd
+│   │   │       │       ├── OnUserEarnedRewardListener.gd.uid
+│   │   │       │       ├── RewardedAdLoadCallback.gd
+│   │   │       │       ├── RewardedAdLoadCallback.gd.uid
+│   │   │       │       ├── RewardedInterstitialAdLoadCallback.gd
+│   │   │       │       └── RewardedInterstitialAdLoadCallback.gd.uid
+│   │   │       ├── core
+│   │   │       │   ├── MobileSingletonPlugin.gd
+│   │   │       │   └── MobileSingletonPlugin.gd.uid
+│   │   │       ├── mediation
+│   │   │       │   ├── MediationExtras.gd
+│   │   │       │   ├── MediationExtras.gd.uid
+│   │   │       │   └── extras
+│   │   │       │       ├── adcolony
+│   │   │       │       │   ├── AdColonyAppOptions.gd
+│   │   │       │       │   ├── AdColonyAppOptions.gd.uid
+│   │   │       │       │   ├── AdColonyMediationExtras.gd
+│   │   │       │       │   └── AdColonyMediationExtras.gd.uid
+│   │   │       │       ├── meta
+│   │   │       │       │   ├── FBAdSettings.gd
+│   │   │       │       │   └── FBAdSettings.gd.uid
+│   │   │       │       └── vungle
+│   │   │       │           ├── Vungle.gd
+│   │   │       │           ├── Vungle.gd.uid
+│   │   │       │           ├── VungleInterstitialMediationExtras.gd
+│   │   │       │           ├── VungleInterstitialMediationExtras.gd.uid
+│   │   │       │           ├── VungleMediationExtras.gd
+│   │   │       │           ├── VungleMediationExtras.gd.uid
+│   │   │       │           ├── VungleRewardedMediationExtras.gd
+│   │   │       │           └── VungleRewardedMediationExtras.gd.uid
+│   │   │       └── ump
+│   │   │           ├── api
+│   │   │           │   ├── ConsentForm.gd
+│   │   │           │   ├── ConsentForm.gd.uid
+│   │   │           │   ├── ConsentInformation.gd
+│   │   │           │   ├── ConsentInformation.gd.uid
+│   │   │           │   ├── UserMessagingPlatform.gd
+│   │   │           │   └── UserMessagingPlatform.gd.uid
+│   │   │           └── core
+│   │   │               ├── ConsentDebugSettings.gd
+│   │   │               ├── ConsentDebugSettings.gd.uid
+│   │   │               ├── ConsentRequestParameters.gd
+│   │   │               ├── ConsentRequestParameters.gd.uid
+│   │   │               ├── DebugGeography.gd
+│   │   │               ├── DebugGeography.gd.uid
+│   │   │               ├── FormError.gd
+│   │   │               └── FormError.gd.uid
+│   │   ├── internal
+│   │   │   ├── editor
+│   │   │   │   ├── components
+│   │   │   │   │   ├── android_menu.gd
+│   │   │   │   │   ├── android_menu.gd.uid
+│   │   │   │   │   ├── documents_menu.gd
+│   │   │   │   │   ├── documents_menu.gd.uid
+│   │   │   │   │   ├── help_menu.gd
+│   │   │   │   │   ├── help_menu.gd.uid
+│   │   │   │   │   ├── ios_menu.gd
+│   │   │   │   │   ├── ios_menu.gd.uid
+│   │   │   │   │   ├── support_menu.gd
+│   │   │   │   │   └── support_menu.gd.uid
+│   │   │   │   ├── editor_menu.gd
+│   │   │   │   ├── editor_menu.gd.uid
+│   │   │   │   ├── popup_menu.gd
+│   │   │   │   └── popup_menu.gd.uid
+│   │   │   ├── exporters
+│   │   │   │   ├── android
+│   │   │   │   │   ├── export_plugin.gd
+│   │   │   │   │   ├── export_plugin.gd.uid
+│   │   │   │   │   ├── library.gd
+│   │   │   │   │   └── library.gd.uid
+│   │   │   │   ├── ios
+│   │   │   │   │   ├── export_plugin.gd
+│   │   │   │   │   └── export_plugin.gd.uid
+│   │   │   │   ├── main_export_plugin.gd
+│   │   │   │   └── main_export_plugin.gd.uid
+│   │   │   ├── handlers
+│   │   │   │   ├── android_handler.gd
+│   │   │   │   ├── android_handler.gd.uid
+│   │   │   │   ├── ios_handler.gd
+│   │   │   │   └── ios_handler.gd.uid
+│   │   │   ├── sample_registry.gd
+│   │   │   ├── sample_registry.gd.uid
+│   │   │   ├── services
+│   │   │   │   ├── archive
+│   │   │   │   │   ├── zip_service.gd
+│   │   │   │   │   └── zip_service.gd.uid
+│   │   │   │   ├── csharp_service.gd
+│   │   │   │   ├── csharp_service.gd.uid
+│   │   │   │   ├── export_service.gd
+│   │   │   │   ├── export_service.gd.uid
+│   │   │   │   ├── network
+│   │   │   │   │   ├── download_service.gd
+│   │   │   │   │   └── download_service.gd.uid
+│   │   │   │   ├── pbxproj_service.gd
+│   │   │   │   ├── pbxproj_service.gd.uid
+│   │   │   │   └── ui
+│   │   │   │       ├── dialog_service.gd
+│   │   │   │       ├── dialog_service.gd.uid
+│   │   │   │       ├── file_service.gd
+│   │   │   │       └── file_service.gd.uid
+│   │   │   └── version
+│   │   │       ├── plugin_version.gd
+│   │   │       └── plugin_version.gd.uid
+│   │   └── plugin.cfg
+│   ├── admob.zip
+│   └── virtual_joystick
+│       ├── plugin.cfg
+│       ├── previews
+│       │   ├── CoverPreview.svg
+│       │   ├── Logo.svg
+│       │   ├── ShowcasePreview.png
+│       │   └── joystick_icon.png
+│       ├── test
+│       │   ├── player.gd
+│       │   ├── player.gd.uid
+│       │   └── test.tscn
+│       ├── textures
+│       │   ├── joystick_base_outline.png
+│       │   ├── joystick_tip.png
+│       │   └── joystick_tip_arrows.png
+│       ├── virtual_joystick.gd
+│       ├── virtual_joystick.gd.uid
+│       ├── virtual_joystick_icon.png
+│       ├── virtual_joystick_instantiator.gd
+│       ├── virtual_joystick_instantiator.gd.uid
+│       ├── virtual_joystick_plugin.gd
+│       ├── virtual_joystick_plugin.gd.uid
+│       └── virtual_joystick_scene.tscn
+├── admob_bridge.gd
+├── admob_bridge.gd.uid
+├── ads
+│   ├── libs
+│   │   ├── poing-godot-admob-ads-debug.aar
+│   │   ├── poing-godot-admob-ads-release.aar
+│   │   ├── poing-godot-admob-core-debug.aar
+│   │   └── poing-godot-admob-core-release.aar
+│   ├── poing_godot_admob_ads.gd
+│   └── poing_godot_admob_ads.gd.uid
+├── airport_gate.gd
+├── airport_gate.gd.uid
+├── airport_gate.tscn
+├── akm_assault_rifle_for_games_0.png
+├── akm_assault_rifle_for_games_1.png
+├── akm_assault_rifle_for_games_2.png
+├── almond_water.gd
+├── almond_water.gd.uid
+├── almond_water.tscn
+├── altar.glb
+├── altar_0.jpg
+├── altarmap.tscn
+├── android
+│   └── .build_version
+├── ars_city_files.txt
+├── ars_city_project_inventory.txt
+├── ars_city_tree.txt
+├── assault-rifle.png
+├── backrooms.tscn
+├── backrooms_door.gd
+├── backrooms_door.gd.uid
+├── backrooms_door.tscn
+├── backrooms_entity.glb
+├── backrooms_entity_0.png
+├── backrooms_entity_1.png
+├── backrooms_entity_10.png
+├── backrooms_entity_11.png
+├── backrooms_entity_12.png
+├── backrooms_entity_13.png
+├── backrooms_entity_14.png
+├── backrooms_entity_15.png
+├── backrooms_entity_16.png
+├── backrooms_entity_17.png
+├── backrooms_entity_18.png
+├── backrooms_entity_19.png
+├── backrooms_entity_2.png
+├── backrooms_entity_20.png
+├── backrooms_entity_21.png
+├── backrooms_entity_22.png
+├── backrooms_entity_23.png
+├── backrooms_entity_24.png
+├── backrooms_entity_25.png
+├── backrooms_entity_26.png
+├── backrooms_entity_27.png
+├── backrooms_entity_28.png
+├── backrooms_entity_29.png
+├── backrooms_entity_3.png
+├── backrooms_entity_30.png
+├── backrooms_entity_31.png
+├── backrooms_entity_4.png
+├── backrooms_entity_5.png
+├── backrooms_entity_6.png
+├── backrooms_entity_7.png
+├── backrooms_entity_8.png
+├── backrooms_entity_9.png
+├── backrooms_manager.gd
+├── backrooms_manager.gd.uid
+├── backrooms_monster.gd
+├── backrooms_monster.gd.uid
+├── backrooms_monster.tscn
+├── backroomsmap.gd
+├── backroomsmap.gd.uid
+├── baked_city_collision.tres
+├── baked_collisions
+│   ├── Asteroid_mat_005_0_219949306359_col.res
+│   ├── Asteroid_mat_005_0_233505300194_col.res
+│   ├── Asteroid_mat_005_0_236843961537_col.res
+│   ├── Asteroid_mat_005_0_252849429186_col.tres
+│   ├── Asteroid_mat_005_0_255013690670_col.res
+│   ├── Asteroid_mat_005_0_268368354581_col.tres
+│   ├── Asteroid_mat_005_0_73417098996_col.res
+│   ├── Asteroid_mat_006_0_219966083571_col.res
+│   ├── Asteroid_mat_006_0_233522077407_col.res
+│   ├── Asteroid_mat_006_0_236860738751_col.res
+│   ├── Asteroid_mat_006_0_252866206397_col.tres
+│   ├── Asteroid_mat_006_0_255030467884_col.res
+│   ├── Asteroid_mat_006_0_268385131798_col.tres
+│   ├── Asteroid_mat_006_0_73433876214_col.res
+│   ├── Background_Asteroid_mat_001_0_219999637996_col.res
+│   ├── Background_Asteroid_mat_001_0_233555631831_col.res
+│   ├── Background_Asteroid_mat_001_0_236894293179_col.res
+│   ├── Background_Asteroid_mat_001_0_252899760905_col.tres
+│   ├── Background_Asteroid_mat_001_0_255064022310_col.res
+│   ├── Background_Asteroid_mat_001_0_268418686232_col.tres
+│   ├── Background_Asteroid_mat_001_0_73467430647_col.res
+│   ├── Background_Asteroid_mat_003_0_220033192421_col.res
+│   ├── Background_Asteroid_mat_003_0_233589186256_col.res
+│   ├── Background_Asteroid_mat_003_0_236927847607_col.res
+│   ├── Background_Asteroid_mat_003_0_252933315380_col.tres
+│   ├── Background_Asteroid_mat_003_0_255097576737_col.res
+│   ├── Background_Asteroid_mat_003_0_268452240666_col.tres
+│   ├── Background_Asteroid_mat_003_0_73500985088_col.res
+│   ├── Background_Asteroid_mat_004_0_220016415209_col.res
+│   ├── Background_Asteroid_mat_004_0_233572409044_col.res
+│   ├── Background_Asteroid_mat_004_0_236911070393_col.res
+│   ├── Background_Asteroid_mat_004_0_252916538163_col.tres
+│   ├── Background_Asteroid_mat_004_0_255080799524_col.res
+│   ├── Background_Asteroid_mat_004_0_268435463449_col.tres
+│   ├── Background_Asteroid_mat_004_0_73484207874_col.res
+│   ├── BezierCurve_001_Material_016_0_286655522872_col.res
+│   ├── BezierCurve_001_Material_016_0_326736291328_col.tres
+│   ├── BezierCurve_001_Material_016_0_327994583217_col.res
+│   ├── BezierCurve_002_Material_016_0_286521305136_col.res
+│   ├── BezierCurve_002_Material_016_0_326669182460_col.tres
+│   ├── BezierCurve_002_Material_016_0_327860365481_col.res
+│   ├── BezierCurve_rope_0_140744070150_col.tres
+│   ├── BezierCurve_rope_0_156061669715_col.res
+│   ├── BezierCurve_rope_0_169936426947_col.res
+│   ├── Circle_001_Material_012_0_289859971319_col.res
+│   ├── Circle_001_Material_012_0_328330126943_col.tres
+│   ├── Circle_001_Material_012_0_331199031664_col.res
+│   ├── Circle_002_Material_012_0_289927080187_col.res
+│   ├── Circle_002_Material_012_0_328363681377_col.tres
+│   ├── Circle_002_Material_012_0_331266140532_col.res
+│   ├── Circle_003_Material_012_0_289994189055_col.res
+│   ├── Circle_003_Material_012_0_328397235811_col.tres
+│   ├── Circle_003_Material_012_0_331333249400_col.res
+│   ├── Circle_004_Material_012_0_290061297923_col.res
+│   ├── Circle_004_Material_012_0_328430790245_col.tres
+│   ├── Circle_004_Material_012_0_331400358268_col.res
+│   ├── Circle_005_Material_012_0_290128406791_col.res
+│   ├── Circle_005_Material_012_0_328464344679_col.tres
+│   ├── Circle_005_Material_012_0_331467467136_col.res
+│   ├── Circle_006_Material_012_0_290195515659_col.res
+│   ├── Circle_006_Material_012_0_328497899113_col.tres
+│   ├── Circle_006_Material_012_0_331534576004_col.res
+│   ├── Circle_007_Material_012_0_290262624527_col.res
+│   ├── Circle_007_Material_012_0_328531453547_col.tres
+│   ├── Circle_007_Material_012_0_331601684872_col.res
+│   ├── Circle_008_Material_012_0_290329733395_col.res
+│   ├── Circle_008_Material_012_0_328565007981_col.tres
+│   ├── Circle_008_Material_012_0_331668793740_col.res
+│   ├── Circle_009_Material_012_0_290396842263_col.res
+│   ├── Circle_009_Material_012_0_328598562415_col.tres
+│   ├── Circle_009_Material_012_0_331735902608_col.res
+│   ├── Circle_010_Material_012_0_290463951131_col.res
+│   ├── Circle_010_Material_012_0_328632116849_col.tres
+│   ├── Circle_010_Material_012_0_331803011476_col.res
+│   ├── Circle_011_Material_012_0_290531059999_col.res
+│   ├── Circle_011_Material_012_0_328665671283_col.tres
+│   ├── Circle_011_Material_012_0_331870120344_col.res
+│   ├── Circle_012_Material_012_0_290598168867_col.res
+│   ├── Circle_012_Material_012_0_328699225717_col.tres
+│   ├── Circle_012_Material_012_0_331937229212_col.res
+│   ├── Circle_013_Material_012_0_290665277735_col.res
+│   ├── Circle_013_Material_012_0_328732780151_col.tres
+│   ├── Circle_013_Material_012_0_332004338080_col.res
+│   ├── Circle_014_Material_012_0_290732386603_col.res
+│   ├── Circle_014_Material_012_0_328766334585_col.tres
+│   ├── Circle_014_Material_012_0_332071446948_col.res
+│   ├── Circle_015_Material_012_0_290799495471_col.res
+│   ├── Circle_015_Material_012_0_328799889019_col.tres
+│   ├── Circle_015_Material_012_0_332138555816_col.res
+│   ├── Circle_016_Material_012_0_290866604339_col.res
+│   ├── Circle_016_Material_012_0_328833443453_col.tres
+│   ├── Circle_016_Material_012_0_332205664684_col.res
+│   ├── Circle_017_Material_012_0_290933713207_col.res
+│   ├── Circle_017_Material_012_0_328866997887_col.tres
+│   ├── Circle_017_Material_012_0_332272773552_col.res
+│   ├── Circle_018_Material_012_0_291000822075_col.res
+│   ├── Circle_018_Material_012_0_328900552321_col.tres
+│   ├── Circle_018_Material_012_0_332339882420_col.res
+│   ├── Circle_019_Material_012_0_291067930943_col.res
+│   ├── Circle_019_Material_012_0_328934106755_col.tres
+│   ├── Circle_019_Material_012_0_332406991288_col.res
+│   ├── Circle_020_Material_012_0_291135039811_col.res
+│   ├── Circle_020_Material_012_0_328967661189_col.tres
+│   ├── Circle_020_Material_012_0_332474100156_col.res
+│   ├── Circle_021_Material_012_0_291202148679_col.res
+│   ├── Circle_021_Material_012_0_329001215623_col.tres
+│   ├── Circle_021_Material_012_0_332541209024_col.res
+│   ├── Circle_0_73215772832_col.tres
+│   ├── Circle_0_76118231391_col.res
+│   ├── Circle_0_86486550879_col.res
+│   ├── Circle_1_73232550049_col.tres
+│   ├── Circle_1_76168563042_col.res
+│   ├── Circle_1_86536882530_col.res
+│   ├── Circle_2_73249327266_col.tres
+│   ├── Circle_2_76218894693_col.res
+│   ├── Circle_2_86587214181_col.res
+│   ├── Circle_Material_012_0_289792862451_col.res
+│   ├── Circle_Material_012_0_328296572509_col.tres
+│   ├── Circle_Material_012_0_331131922796_col.res
+│   ├── Circle_rope_0_140878287886_col.tres
+│   ├── Circle_rope_0_156397214055_col.res
+│   ├── Circle_rope_0_170271971287_col.res
+│   ├── Cube_001_Rock_0_284105385888_col.res
+│   ├── Cube_001_Rock_0_325444446233_col.res
+│   ├── Cube_001_Rock_0_325461222836_col.tres
+│   ├── Cube_001_barrel_001_0_140794401801_col.tres
+│   ├── Cube_001_barrel_001_0_156179110234_col.res
+│   ├── Cube_001_barrel_001_0_170053867466_col.res
+│   ├── Cube_001_bed_001_0_140827956235_col.tres
+│   ├── Cube_001_bed_001_0_156279773536_col.res
+│   ├── Cube_001_bed_001_0_170154530768_col.res
+│   ├── Cube_001_metal_0_140811179018_col.tres
+│   ├── Cube_001_metal_0_156229441885_col.res
+│   ├── Cube_001_metal_0_170104199117_col.res
+│   ├── Cube_001_wood_0_140844733452_col.tres
+│   ├── Cube_001_wood_0_156330105187_col.res
+│   ├── Cube_001_wood_0_170204862419_col.res
+│   ├── Cube_001_wood_lift_0_140777624584_col.tres
+│   ├── Cube_001_wood_lift_0_156128778583_col.res
+│   ├── Cube_001_wood_lift_0_170003535815_col.res
+│   ├── Cube_002_0_192250125412_col.res
+│   ├── Cube_002_0_239008227389_col.res
+│   ├── Cube_002_0_260516618351_col.res
+│   ├── Cube_002_0_273233747507_col.tres
+│   ├── Cube_002_0_72880228492_col.tres
+│   ├── Cube_002_0_75279370541_col.res
+│   ├── Cube_002_0_79037466950_col.res
+│   ├── Cube_002_0_85647690029_col.res
+│   ├── Cube_002_1_72897005709_col.tres
+│   ├── Cube_002_1_75329702192_col.res
+│   ├── Cube_002_1_85698021680_col.res
+│   ├── Cube_002_2_72913782926_col.tres
+│   ├── Cube_002_2_75380033843_col.res
+│   ├── Cube_002_2_85748353331_col.res
+│   ├── Cube_002_Rock_0_283300079472_col.res
+│   ├── Cube_002_Rock_0_324639139817_col.res
+│   ├── Cube_002_Rock_0_325058569628_col.tres
+│   ├── Cube_002_roof_0_126919643342_col.tres
+│   ├── Cube_002_roof_0_128278598363_col.res
+│   ├── Cube_002_roof_0_142153355595_col.res
+│   ├── Cube_003_02_72813119624_col.tres
+│   ├── Cube_003_02_75111598371_col.res
+│   ├── Cube_003_02_85479917611_col.res
+│   ├── Cube_003_0_72091699293_col.tres
+│   ├── Cube_003_0_73551317190_col.res
+│   ├── Cube_003_0_83919636027_col.res
+│   ├── Cube_003_1_72829896841_col.tres
+│   ├── Cube_003_1_75161930022_col.res
+│   ├── Cube_003_1_85530249265_col.res
+│   ├── Cube_003_2_72846674058_col.tres
+│   ├── Cube_003_2_75212261673_col.res
+│   ├── Cube_003_2_85580580919_col.res
+│   ├── Cube_003_Material_009_0_286856849476_col.res
+│   ├── Cube_003_Material_009_0_326836954630_col.tres
+│   ├── Cube_003_Material_009_0_328195909821_col.res
+│   ├── Cube_003_stand_001_0_140676961282_col.tres
+│   ├── Cube_003_stand_001_0_155893897545_col.res
+│   ├── Cube_003_stand_001_0_169768654777_col.res
+│   ├── Cube_003_stand_002_0_140693738499_col.tres
+│   ├── Cube_003_stand_002_0_155944229196_col.res
+│   ├── Cube_003_stand_002_0_169818986428_col.res
+│   ├── Cube_003_stand_0_140660184065_col.tres
+│   ├── Cube_003_stand_0_155843565894_col.res
+│   ├── Cube_003_stand_0_169718323126_col.res
+│   ├── Cube_003_wood_003_0_140710515716_col.tres
+│   ├── Cube_003_wood_003_0_155994560847_col.res
+│   ├── Cube_003_wood_003_0_169869318079_col.res
+│   ├── Cube_004_Material_004_0_283836950416_col.res
+│   ├── Cube_004_Material_004_0_325176010761_col.res
+│   ├── Cube_004_Material_004_0_325327005100_col.tres
+│   ├── Cube_005_0_72947337360_col.tres
+│   ├── Cube_005_0_75447142711_col.res
+│   ├── Cube_005_0_85815462199_col.res
+│   ├── Cube_005_1_72964114577_col.tres
+│   ├── Cube_005_1_75497474362_col.res
+│   ├── Cube_005_1_85865793850_col.res
+│   ├── Cube_005_2_72980891794_col.tres
+│   ├── Cube_005_2_75547806013_col.res
+│   ├── Cube_005_2_85916125501_col.res
+│   ├── Cube_005_bed_002_0_140609852414_col.tres
+│   ├── Cube_005_bed_002_0_155726125375_col.res
+│   ├── Cube_005_bed_002_0_169600882607_col.res
+│   ├── Cube_005_shield_0_140626629631_col.tres
+│   ├── Cube_005_shield_0_155776457026_col.res
+│   ├── Cube_005_shield_0_169651214258_col.res
+│   ├── Cube_005_wood_001_0_140559520763_col.tres
+│   ├── Cube_005_wood_001_0_155575130422_col.res
+│   ├── Cube_005_wood_001_0_169449887654_col.res
+│   ├── Cube_005_wood_002_0_140593075197_col.tres
+│   ├── Cube_005_wood_002_0_155675793724_col.res
+│   ├── Cube_005_wood_002_0_169550550956_col.res
+│   ├── Cube_005_wood_003_0_140576297980_col.tres
+│   ├── Cube_005_wood_003_0_155625462073_col.res
+│   ├── Cube_005_wood_003_0_169500219305_col.res
+│   ├── Cube_005_wood_0_140542743546_col.tres
+│   ├── Cube_005_wood_0_155524798771_col.res
+│   ├── Cube_005_wood_0_169399556003_col.res
+│   ├── Cube_006_Material_009_0_286923958344_col.res
+│   ├── Cube_006_Material_009_0_326870509064_col.tres
+│   ├── Cube_006_Material_009_0_328263018689_col.res
+│   ├── Cube_007_001_0_74004302031_col.tres
+│   ├── Cube_007_001_0_78014056912_col.res
+│   ├── Cube_007_001_0_88382376400_col.res
+│   ├── Cube_007_002_0_74037856465_col.tres
+│   ├── Cube_007_002_0_78081165780_col.res
+│   ├── Cube_007_002_0_88449485268_col.res
+│   ├── Cube_007_003_0_74071410899_col.tres
+│   ├── Cube_007_003_0_78148274648_col.res
+│   ├── Cube_007_003_0_88516594136_col.res
+│   ├── Cube_007_004_0_74104965333_col.tres
+│   ├── Cube_007_004_0_78215383516_col.res
+│   ├── Cube_007_004_0_88583703004_col.res
+│   ├── Cube_007_005_0_74138519767_col.tres
+│   ├── Cube_007_005_0_78282492384_col.res
+│   ├── Cube_007_005_0_88650811872_col.res
+│   ├── Cube_007_006_0_74406955239_col.tres
+│   ├── Cube_007_006_0_78819363328_col.res
+│   ├── Cube_007_006_0_89187682816_col.res
+│   ├── Cube_007_007_0_74440509673_col.tres
+│   ├── Cube_007_007_0_78886472196_col.res
+│   ├── Cube_007_007_0_89254791684_col.res
+│   ├── Cube_007_0_72125253727_col.tres
+│   ├── Cube_007_0_73618426058_col.res
+│   ├── Cube_007_0_83986744904_col.res
+│   ├── Cube_007_Material_008_0_287393720420_col.res
+│   ├── Cube_007_Material_008_0_327105390102_col.tres
+│   ├── Cube_007_Material_008_0_328732780765_col.res
+│   ├── Cube_008_0_73014446228_col.tres
+│   ├── Cube_008_0_75614914881_col.res
+│   ├── Cube_008_0_85983234369_col.res
+│   ├── Cube_008_1_73031223445_col.tres
+│   ├── Cube_008_1_75665246532_col.res
+│   ├── Cube_008_1_86033566020_col.res
+│   ├── Cube_008_2_73048000662_col.tres
+│   ├── Cube_008_2_75715578183_col.res
+│   ├── Cube_008_2_86083897671_col.res
+│   ├── Cube_008_Material_008_0_287460829288_col.res
+│   ├── Cube_008_Material_008_0_327138944536_col.tres
+│   ├── Cube_008_Material_008_0_328799889633_col.res
+│   ├── Cube_008_rooftop_0_140442080244_col.tres
+│   ├── Cube_008_rooftop_0_155323472167_col.res
+│   ├── Cube_008_rooftop_0_169198229399_col.res
+│   ├── Cube_009_Material_007_0_289541204196_col.res
+│   ├── Cube_009_Material_007_0_328179131990_col.tres
+│   ├── Cube_009_Material_007_0_330880264541_col.res
+│   ├── Cube_009_rooftop_001_0_140475634678_col.tres
+│   ├── Cube_009_rooftop_001_0_155390581035_col.res
+│   ├── Cube_009_rooftop_001_0_169265338267_col.res
+│   ├── Cube_010_0_73081555096_col.tres
+│   ├── Cube_010_0_75782687051_col.res
+│   ├── Cube_010_0_86151006539_col.res
+│   ├── Cube_010_1_73098332313_col.tres
+│   ├── Cube_010_1_75833018702_col.res
+│   ├── Cube_010_1_86201338190_col.res
+│   ├── Cube_010_2_73115109530_col.tres
+│   ├── Cube_010_2_75883350353_col.res
+│   ├── Cube_010_2_86251669841_col.res
+│   ├── Cube_010_rooftop_002_0_140509189112_col.tres
+│   ├── Cube_010_rooftop_002_0_155457689903_col.res
+│   ├── Cube_010_rooftop_002_0_169332447135_col.res
+│   ├── Cube_011_barrel_001_0_140928619537_col.tres
+│   ├── Cube_011_barrel_001_0_156514654574_col.res
+│   ├── Cube_011_barrel_001_0_170389411806_col.res
+│   ├── Cube_011_metal_0_140945396754_col.tres
+│   ├── Cube_011_metal_0_156564986225_col.res
+│   ├── Cube_011_metal_0_170439743457_col.res
+│   ├── Cube_011_wood_004_0_140911842320_col.tres
+│   ├── Cube_011_wood_004_0_156464322923_col.res
+│   ├── Cube_011_wood_004_0_170339080155_col.res
+│   ├── Cube_012_rocks_001_0_142035915859_col.tres
+│   ├── Cube_012_rocks_001_0_159199009294_col.res
+│   ├── Cube_012_rocks_001_0_173073766526_col.res
+│   ├── Cube_012_rocks_002_0_142052693076_col.tres
+│   ├── Cube_012_rocks_002_0_159249340945_col.res
+│   ├── Cube_012_rocks_002_0_173124098177_col.res
+│   ├── Cube_012_rocks_003_0_142002361425_col.tres
+│   ├── Cube_012_rocks_003_0_159098345992_col.res
+│   ├── Cube_012_rocks_003_0_172973103224_col.res
+│   ├── Cube_012_rocks_0_142019138642_col.tres
+│   ├── Cube_012_rocks_0_159148677643_col.res
+│   ├── Cube_012_rocks_0_173023434875_col.res
+│   ├── Cube_012_wood_0_142069470293_col.tres
+│   ├── Cube_012_wood_0_159299672596_col.res
+│   ├── Cube_012_wood_0_173174429828_col.res
+│   ├── Cube_015_cabin_001_0_142119801944_col.tres
+│   ├── Cube_015_cabin_001_0_159417113115_col.res
+│   ├── Cube_015_cabin_001_0_173291870347_col.res
+│   ├── Cube_015_cabin_002_0_142103024727_col.tres
+│   ├── Cube_015_cabin_002_0_159366781464_col.res
+│   ├── Cube_015_cabin_002_0_173241538696_col.res
+│   ├── Cube_015_cabin_0_142136579161_col.tres
+│   ├── Cube_015_cabin_0_159467444766_col.res
+│   ├── Cube_015_cabin_0_173342201998_col.res
+│   ├── Cube_018_001_0_74541172975_col.tres
+│   ├── Cube_018_001_0_79087798800_col.res
+│   ├── Cube_018_001_0_89456118288_col.res
+│   ├── Cube_018_002_0_74574727409_col.tres
+│   ├── Cube_018_002_0_79154907668_col.res
+│   ├── Cube_018_002_0_89523227156_col.res
+│   ├── Cube_018_003_0_74742499579_col.tres
+│   ├── Cube_018_003_0_79490452008_col.res
+│   ├── Cube_018_003_0_89858771496_col.res
+│   ├── Cube_018_0_72192362595_col.tres
+│   ├── Cube_018_0_73752643794_col.res
+│   ├── Cube_018_0_84120962777_col.res
+│   ├── Cube_049_001_0_74507618541_col.tres
+│   ├── Cube_049_001_0_79020689932_col.res
+│   ├── Cube_049_001_0_89389009420_col.res
+│   ├── Cube_049_002_0_74608281843_col.tres
+│   ├── Cube_049_002_0_79222016536_col.res
+│   ├── Cube_049_002_0_89590336024_col.res
+│   ├── Cube_049_0_72259471463_col.tres
+│   ├── Cube_049_0_73886861530_col.res
+│   ├── Cube_049_0_84255180590_col.res
+│   ├── Cube_050_001_0_74474064107_col.tres
+│   ├── Cube_050_001_0_78953581064_col.res
+│   ├── Cube_050_001_0_89321900552_col.res
+│   ├── Cube_050_002_0_74641836277_col.tres
+│   ├── Cube_050_002_0_79289125404_col.res
+│   ├── Cube_050_002_0_89657444892_col.res
+│   ├── Cube_050_003_0_74708945145_col.tres
+│   ├── Cube_050_003_0_79423343140_col.res
+│   ├── Cube_050_003_0_89791662628_col.res
+│   ├── Cube_050_0_72293025897_col.tres
+│   ├── Cube_050_0_73953970398_col.res
+│   ├── Cube_050_0_84322289409_col.res
+│   ├── Cube_065_0_72360134765_col.tres
+│   ├── Cube_065_0_74088188134_col.res
+│   ├── Cube_065_0_84456507313_col.res
+│   ├── Cube_076_0_73148663964_col.tres
+│   ├── Cube_076_0_75950459221_col.res
+│   ├── Cube_076_0_86318778709_col.res
+│   ├── Cube_076_1_73165441181_col.tres
+│   ├── Cube_076_1_76000790872_col.res
+│   ├── Cube_076_1_86369110360_col.res
+│   ├── Cube_076_2_73182218398_col.tres
+│   ├── Cube_076_2_76051122523_col.res
+│   ├── Cube_076_2_86419442011_col.res
+│   ├── Cube_0_72058144859_col.tres
+│   ├── Cube_0_73484207672_col.res
+│   ├── Cube_0_83852527156_col.res
+│   ├── Cube_cabin_001_0_126886088908_col.tres
+│   ├── Cube_cabin_001_0_128211489495_col.res
+│   ├── Cube_cabin_001_0_142086246727_col.res
+│   ├── Cube_cabin_0_126869311691_col.tres
+│   ├── Cube_cabin_0_128161157844_col.res
+│   ├── Cube_cabin_0_142035915076_col.res
+│   ├── Cylinder_001_Material_002_0_283501406076_col.res
+│   ├── Cylinder_001_Material_002_0_324840466421_col.res
+│   ├── Cylinder_001_Material_002_0_325159232930_col.tres
+│   ├── Cylinder_002_Material_002_0_283568514944_col.res
+│   ├── Cylinder_002_Material_002_0_324907575289_col.res
+│   ├── Cylinder_002_Material_002_0_325192787364_col.tres
+│   ├── Cylinder_003_Material_006_0_283904059284_col.res
+│   ├── Cylinder_003_Material_006_0_325243119629_col.res
+│   ├── Cylinder_003_Material_006_0_325360559534_col.tres
+│   ├── Cylinder_004_Material_008_0_284239603624_col.res
+│   ├── Cylinder_004_Material_008_0_325528331704_col.tres
+│   ├── Cylinder_004_Material_008_0_325578663969_col.res
+│   ├── Cylinder_005_Material_008_0_284306712492_col.res
+│   ├── Cylinder_005_Material_008_0_325561886138_col.tres
+│   ├── Cylinder_005_Material_008_0_325645772837_col.res
+│   ├── Cylinder_006_Material_007_0_284172494756_col.res
+│   ├── Cylinder_006_Material_007_0_325494777270_col.tres
+│   ├── Cylinder_006_Material_007_0_325511555101_col.res
+│   ├── Cylinder_007_Material_007_0_284373821360_col.res
+│   ├── Cylinder_007_Material_007_0_325595440572_col.tres
+│   ├── Cylinder_007_Material_007_0_325712881705_col.res
+│   ├── Cylinder_008_Neon Green_0_284977801172_col.res
+│   ├── Cylinder_008_Neon Green_0_325897430478_col.tres
+│   ├── Cylinder_008_Neon Green_0_326316861517_col.res
+│   ├── Cylinder_009_Neon Green_0_285044910040_col.res
+│   ├── Cylinder_009_Neon Green_0_325930984912_col.tres
+│   ├── Cylinder_009_Neon Green_0_326383970385_col.res
+│   ├── Cylinder_010_Neon Green_0_285112018908_col.res
+│   ├── Cylinder_010_Neon Green_0_325964539346_col.tres
+│   ├── Cylinder_010_Neon Green_0_326451079253_col.res
+│   ├── Cylinder_011_001_0_74339846371_col.tres
+│   ├── Cylinder_011_001_0_78685145592_col.res
+│   ├── Cylinder_011_001_0_89053465080_col.res
+│   ├── Cylinder_011_002_0_74373400805_col.tres
+│   ├── Cylinder_011_002_0_78752254460_col.res
+│   ├── Cylinder_011_002_0_89120573948_col.res
+│   ├── Cylinder_011_003_0_74675390711_col.tres
+│   ├── Cylinder_011_003_0_79356234272_col.res
+│   ├── Cylinder_011_003_0_89724553760_col.res
+│   ├── Cylinder_011_0_72225917029_col.tres
+│   ├── Cylinder_011_0_73819752662_col.res
+│   ├── Cylinder_011_0_84188071654_col.res
+│   ├── Cylinder_011_Neon Green_0_285179127776_col.res
+│   ├── Cylinder_011_Neon Green_0_325998093780_col.tres
+│   ├── Cylinder_011_Neon Green_0_326518188121_col.res
+│   ├── Cylinder_012_Material_009_0_285246236644_col.res
+│   ├── Cylinder_012_Material_009_0_326031648214_col.tres
+│   ├── Cylinder_012_Material_009_0_326585296989_col.res
+│   ├── Cylinder_013_Material_009_0_285313345512_col.res
+│   ├── Cylinder_013_Material_009_0_326065202648_col.tres
+│   ├── Cylinder_013_Material_009_0_326652405857_col.res
+│   ├── Cylinder_014_Material_009_0_285380454380_col.res
+│   ├── Cylinder_014_Material_009_0_326098757082_col.tres
+│   ├── Cylinder_014_Material_009_0_326719514725_col.res
+│   ├── Cylinder_015_Material_009_0_285447563248_col.res
+│   ├── Cylinder_015_Material_009_0_326132311516_col.tres
+│   ├── Cylinder_015_Material_009_0_326786623593_col.res
+│   ├── Cylinder_016_Material_009_0_285514672116_col.res
+│   ├── Cylinder_016_Material_009_0_326165865950_col.tres
+│   ├── Cylinder_016_Material_009_0_326853732461_col.res
+│   ├── Cylinder_017_Material_006_0_285581780984_col.res
+│   ├── Cylinder_017_Material_006_0_326199420384_col.tres
+│   ├── Cylinder_017_Material_006_0_326920841329_col.res
+│   ├── Cylinder_018_Material_002_0_285648889852_col.res
+│   ├── Cylinder_018_Material_002_0_326232974818_col.tres
+│   ├── Cylinder_018_Material_002_0_326987950197_col.res
+│   ├── Cylinder_019_Material_008_0_286991067212_col.res
+│   ├── Cylinder_019_Material_008_0_326904063498_col.tres
+│   ├── Cylinder_019_Material_008_0_328330127557_col.res
+│   ├── Cylinder_020_Material_008_0_287058176080_col.res
+│   ├── Cylinder_020_Material_008_0_326937617932_col.tres
+│   ├── Cylinder_020_Material_008_0_328397236425_col.res
+│   ├── Cylinder_021_Material_007_0_287125284948_col.res
+│   ├── Cylinder_021_Material_007_0_326971172366_col.tres
+│   ├── Cylinder_021_Material_007_0_328464345293_col.res
+│   ├── Cylinder_022_Neon Green_0_287192393816_col.res
+│   ├── Cylinder_022_Neon Green_0_327004726800_col.tres
+│   ├── Cylinder_022_Neon Green_0_328531454161_col.res
+│   ├── Cylinder_023_Material_006_0_287259502684_col.res
+│   ├── Cylinder_023_Material_006_0_327038281234_col.tres
+│   ├── Cylinder_023_Material_006_0_328598563029_col.res
+│   ├── Cylinder_024_Material_006_0_287326611552_col.res
+│   ├── Cylinder_024_Material_006_0_327071835668_col.tres
+│   ├── Cylinder_024_Material_006_0_328665671897_col.res
+│   ├── Cylinder_025_Material_002_0_287930591364_col.res
+│   ├── Cylinder_025_Material_002_0_327373825574_col.tres
+│   ├── Cylinder_025_Material_002_0_329269651709_col.res
+│   ├── Cylinder_026_Neon Green_0_288064809100_col.res
+│   ├── Cylinder_026_Neon Green_0_327440934442_col.tres
+│   ├── Cylinder_026_Neon Green_0_329403869445_col.res
+│   ├── Cylinder_027_Material_006_0_288131917968_col.res
+│   ├── Cylinder_027_Material_006_0_327474488876_col.tres
+│   ├── Cylinder_027_Material_006_0_329470978313_col.res
+│   ├── Cylinder_028_Material_008_0_289272768724_col.res
+│   ├── Cylinder_028_Material_008_0_328044914254_col.tres
+│   ├── Cylinder_028_Material_008_0_330611829069_col.res
+│   ├── Cylinder_029_Material_002_0_289339877592_col.res
+│   ├── Cylinder_029_Material_002_0_328078468688_col.tres
+│   ├── Cylinder_029_Material_002_0_330678937937_col.res
+│   ├── Cylinder_030_Material_002_0_289406986460_col.res
+│   ├── Cylinder_030_Material_002_0_328112023122_col.tres
+│   ├── Cylinder_030_Material_002_0_330746046805_col.res
+│   ├── Cylinder_031_Material_006_0_289474095328_col.res
+│   ├── Cylinder_031_Material_006_0_328145577556_col.tres
+│   ├── Cylinder_031_Material_006_0_330813155673_col.res
+│   ├── Cylinder_070_0_72326580331_col.tres
+│   ├── Cylinder_070_0_74021079266_col.res
+│   ├── Cylinder_070_0_84389398441_col.res
+│   ├── Cylinder_108_001_0_74239183069_col.tres
+│   ├── Cylinder_108_001_0_78483818988_col.res
+│   ├── Cylinder_108_001_0_88852138476_col.res
+│   ├── Cylinder_108_002_0_74272737503_col.tres
+│   ├── Cylinder_108_002_0_78550927856_col.res
+│   ├── Cylinder_108_002_0_88919247344_col.res
+│   ├── Cylinder_108_003_0_74306291937_col.tres
+│   ├── Cylinder_108_003_0_78618036724_col.res
+│   ├── Cylinder_108_003_0_88986356212_col.res
+│   ├── Cylinder_108_0_72628570237_col.tres
+│   ├── Cylinder_108_0_74692167946_col.res
+│   ├── Cylinder_108_0_85060487161_col.res
+│   ├── Cylinder_114_0_72746010756_col.tres
+│   ├── Cylinder_114_0_74943826201_col.res
+│   ├── Cylinder_114_0_85312145431_col.res
+│   ├── Cylinder_114_1_72762787973_col.tres
+│   ├── Cylinder_114_1_74994157852_col.res
+│   ├── Cylinder_114_1_85362477085_col.res
+│   ├── Cylinder_114_2_72779565190_col.tres
+│   ├── Cylinder_114_2_75044489503_col.res
+│   ├── Cylinder_114_2_85412808739_col.res
+│   ├── Cylinder_121_0_73618426040_col.tres
+│   ├── Cylinder_121_0_77124864411_col.res
+│   ├── Cylinder_121_0_87493183899_col.res
+│   ├── Cylinder_Material_009_0_283434297208_col.res
+│   ├── Cylinder_Material_009_0_324773357553_col.res
+│   ├── Cylinder_Material_009_0_325125678496_col.tres
+│   ├── Flying_Asteroid_001_mat_005_0_220133855695_col.res
+│   ├── Flying_Asteroid_001_mat_005_0_233689849533_col.res
+│   ├── Flying_Asteroid_001_mat_005_0_237028510891_col.res
+│   ├── Flying_Asteroid_001_mat_005_0_253033978682_col.tres
+│   ├── Flying_Asteroid_001_mat_005_0_255198240020_col.res
+│   ├── Flying_Asteroid_001_mat_005_0_268552903968_col.tres
+│   ├── Flying_Asteroid_001_mat_005_0_73601648652_col.res
+│   ├── Flying_Asteroid_001_mat_0_220150632908_col.res
+│   ├── Flying_Asteroid_001_mat_0_233706626746_col.res
+│   ├── Flying_Asteroid_001_mat_0_237045288105_col.res
+│   ├── Flying_Asteroid_001_mat_0_253050755899_col.tres
+│   ├── Flying_Asteroid_001_mat_0_255215017234_col.res
+│   ├── Flying_Asteroid_001_mat_0_268569681185_col.tres
+│   ├── Flying_Asteroid_001_mat_0_73618425869_col.res
+│   ├── Flying_Asteroid_002_mat_005_0_220200964547_col.res
+│   ├── Flying_Asteroid_002_mat_005_0_233756958383_col.res
+│   ├── Flying_Asteroid_002_mat_005_0_237095619747_col.res
+│   ├── Flying_Asteroid_002_mat_005_0_253101087550_col.tres
+│   ├── Flying_Asteroid_002_mat_005_0_255265348870_col.res
+│   ├── Flying_Asteroid_002_mat_005_0_268620012836_col.tres
+│   ├── Flying_Asteroid_002_mat_005_0_73668757520_col.res
+│   ├── Flying_Asteroid_002_mat_0_220184187334_col.res
+│   ├── Flying_Asteroid_002_mat_0_233740181171_col.res
+│   ├── Flying_Asteroid_002_mat_0_237078842533_col.res
+│   ├── Flying_Asteroid_002_mat_0_253084310333_col.tres
+│   ├── Flying_Asteroid_002_mat_0_255248571661_col.res
+│   ├── Flying_Asteroid_002_mat_0_268603235619_col.tres
+│   ├── Flying_Asteroid_002_mat_0_73651980303_col.res
+│   ├── Flying_Asteroid_mat_005_0_220083524058_col.res
+│   ├── Flying_Asteroid_mat_005_0_233639517894_col.res
+│   ├── Flying_Asteroid_mat_005_0_236978179249_col.res
+│   ├── Flying_Asteroid_mat_005_0_252983647031_col.tres
+│   ├── Flying_Asteroid_mat_005_0_255147908378_col.res
+│   ├── Flying_Asteroid_mat_005_0_268502572317_col.tres
+│   ├── Flying_Asteroid_mat_005_0_73551317001_col.res
+│   ├── Flying_Asteroid_mat_0_220100301270_col.res
+│   ├── Flying_Asteroid_mat_0_233656295107_col.res
+│   ├── Flying_Asteroid_mat_0_236994956463_col.res
+│   ├── Flying_Asteroid_mat_0_253000424248_col.tres
+│   ├── Flying_Asteroid_mat_0_255164685592_col.res
+│   ├── Flying_Asteroid_mat_0_268519349534_col.tres
+│   ├── Flying_Asteroid_mat_0_73568094218_col.res
+│   ├── Ground_mat_005_0_220234518973_col.res
+│   ├── Ground_mat_005_0_233790512807_col.res
+│   ├── Ground_mat_005_0_237129174175_col.res
+│   ├── Ground_mat_005_0_253134641984_col.tres
+│   ├── Ground_mat_005_0_255298903218_col.res
+│   ├── Ground_mat_005_0_268653567270_col.tres
+│   ├── Ground_mat_005_0_73702311954_col.res
+│   ├── Ground_mat_0_220251296186_col.res
+│   ├── Ground_mat_0_233807290019_col.res
+│   ├── Ground_mat_0_237145951389_col.res
+│   ├── Ground_mat_0_253151419201_col.tres
+│   ├── Ground_mat_0_255315680445_col.res
+│   ├── Ground_mat_0_268670344487_col.tres
+│   ├── Ground_mat_0_73719089171_col.res
+│   ├── Icosphere_001_0_74776054013_col.tres
+│   ├── Icosphere_001_0_79557560876_col.res
+│   ├── Icosphere_001_0_89925880364_col.res
+│   ├── Icosphere_002_Material_003_0_283702732680_col.res
+│   ├── Icosphere_002_Material_003_0_325041793025_col.res
+│   ├── Icosphere_002_Material_003_0_325259896232_col.tres
+│   ├── Icosphere_003_Material_003_0_283769841548_col.res
+│   ├── Icosphere_003_Material_003_0_325108901893_col.res
+│   ├── Icosphere_003_Material_003_0_325293450666_col.tres
+│   ├── Icosphere_004_Material_003_0_284440930228_col.res
+│   ├── Icosphere_004_Material_003_0_325628995006_col.tres
+│   ├── Icosphere_004_Material_003_0_325779990573_col.res
+│   ├── Icosphere_005_Material_003_0_284508039096_col.res
+│   ├── Icosphere_005_Material_003_0_325662549440_col.tres
+│   ├── Icosphere_005_Material_003_0_325847099441_col.res
+│   ├── Icosphere_006_Material_003_0_284575147964_col.res
+│   ├── Icosphere_006_Material_003_0_325696103874_col.tres
+│   ├── Icosphere_006_Material_003_0_325914208309_col.res
+│   ├── Icosphere_007_Sand Rocks_0_284776474568_col.res
+│   ├── Icosphere_007_Sand Rocks_0_325796767176_col.tres
+│   ├── Icosphere_007_Sand Rocks_0_326115534913_col.res
+│   ├── Icosphere_008_Sand Rocks_0_284843583436_col.res
+│   ├── Icosphere_008_Sand Rocks_0_325830321610_col.tres
+│   ├── Icosphere_008_Sand Rocks_0_326182643781_col.res
+│   ├── Icosphere_009_Sand Rocks_0_284910692304_col.res
+│   ├── Icosphere_009_Sand Rocks_0_325863876044_col.tres
+│   ├── Icosphere_009_Sand Rocks_0_326249752649_col.res
+│   ├── Icosphere_010_Sand Rocks_0_285715998720_col.res
+│   ├── Icosphere_010_Sand Rocks_0_326266529252_col.tres
+│   ├── Icosphere_010_Sand Rocks_0_327055059065_col.res
+│   ├── Icosphere_011_Sand Rocks_0_285783107588_col.res
+│   ├── Icosphere_011_Sand Rocks_0_326300083686_col.tres
+│   ├── Icosphere_011_Sand Rocks_0_327122167933_col.res
+│   ├── Icosphere_012_Sand Rocks_0_285850216456_col.res
+│   ├── Icosphere_012_Sand Rocks_0_326333638120_col.tres
+│   ├── Icosphere_012_Sand Rocks_0_327189276801_col.res
+│   ├── Icosphere_013_001_0_74172074201_col.tres
+│   ├── Icosphere_013_001_0_78349601252_col.res
+│   ├── Icosphere_013_001_0_88717920740_col.res
+│   ├── Icosphere_013_002_0_74205628635_col.tres
+│   ├── Icosphere_013_002_0_78416710120_col.res
+│   ├── Icosphere_013_002_0_88785029608_col.res
+│   ├── Icosphere_013_0_72712456322_col.tres
+│   ├── Icosphere_013_0_74876717333_col.res
+│   ├── Icosphere_013_0_85245036559_col.res
+│   ├── Icosphere_013_Sand Rocks_0_285917325324_col.res
+│   ├── Icosphere_013_Sand Rocks_0_326367192554_col.tres
+│   ├── Icosphere_013_Sand Rocks_0_327256385669_col.res
+│   ├── Icosphere_014_Sand Rocks_0_285984434192_col.res
+│   ├── Icosphere_014_Sand Rocks_0_326400746988_col.tres
+│   ├── Icosphere_014_Sand Rocks_0_327323494537_col.res
+│   ├── Icosphere_015_Sand Rocks_0_286051543060_col.res
+│   ├── Icosphere_015_Sand Rocks_0_326434301422_col.tres
+│   ├── Icosphere_015_Sand Rocks_0_327390603405_col.res
+│   ├── Icosphere_016_Sand Rocks_0_286118651928_col.res
+│   ├── Icosphere_016_Sand Rocks_0_326467855856_col.tres
+│   ├── Icosphere_016_Sand Rocks_0_327457712273_col.res
+│   ├── Icosphere_017_Sand Rocks_0_286185760796_col.res
+│   ├── Icosphere_017_Sand Rocks_0_326501410290_col.tres
+│   ├── Icosphere_017_Sand Rocks_0_327524821141_col.res
+│   ├── Icosphere_018_Material_010_0_286789740608_col.res
+│   ├── Icosphere_018_Material_010_0_326803400196_col.tres
+│   ├── Icosphere_018_Material_010_0_328128800953_col.res
+│   ├── Icosphere_019_Sand Rocks_0_287527938156_col.res
+│   ├── Icosphere_019_Sand Rocks_0_327172498970_col.tres
+│   ├── Icosphere_019_Sand Rocks_0_328866998501_col.res
+│   ├── Icosphere_020_Material_003_0_287595047024_col.res
+│   ├── Icosphere_020_Material_003_0_327206053404_col.tres
+│   ├── Icosphere_020_Material_003_0_328934107369_col.res
+│   ├── Icosphere_021_Material_003_0_287662155892_col.res
+│   ├── Icosphere_021_Material_003_0_327239607838_col.tres
+│   ├── Icosphere_021_Material_003_0_329001216237_col.res
+│   ├── Icosphere_022_Material_003_0_287729264760_col.res
+│   ├── Icosphere_022_Material_003_0_327273162272_col.tres
+│   ├── Icosphere_022_Material_003_0_329068325105_col.res
+│   ├── Icosphere_023_Material_003_0_287796373628_col.res
+│   ├── Icosphere_023_Material_003_0_327306716706_col.tres
+│   ├── Icosphere_023_Material_003_0_329135433973_col.res
+│   ├── Icosphere_024_Material_003_0_287863482496_col.res
+│   ├── Icosphere_024_Material_003_0_327340271140_col.tres
+│   ├── Icosphere_024_Material_003_0_329202542841_col.res
+│   ├── Icosphere_025_001_0_74809608447_col.tres
+│   ├── Icosphere_025_001_0_79624669744_col.res
+│   ├── Icosphere_025_001_0_89992989232_col.res
+│   ├── Icosphere_025_001_1_74826385664_col.tres
+│   ├── Icosphere_025_001_1_79675001395_col.res
+│   ├── Icosphere_025_001_1_90043320883_col.res
+│   ├── Icosphere_025_0_73282881700_col.tres
+│   ├── Icosphere_025_0_76286003561_col.res
+│   ├── Icosphere_025_0_86654323049_col.res
+│   ├── Icosphere_025_1_73299658917_col.tres
+│   ├── Icosphere_025_1_76336335212_col.res
+│   ├── Icosphere_025_1_86704654700_col.res
+│   ├── Icosphere_025_Rock_0_288199026836_col.res
+│   ├── Icosphere_025_Rock_0_327508043310_col.tres
+│   ├── Icosphere_025_Rock_0_329538087181_col.res
+│   ├── Icosphere_026_Rock_0_288266135704_col.res
+│   ├── Icosphere_026_Rock_0_327541597744_col.tres
+│   ├── Icosphere_026_Rock_0_329605196049_col.res
+│   ├── Icosphere_027_Rock_0_288333244572_col.res
+│   ├── Icosphere_027_Rock_0_327575152178_col.tres
+│   ├── Icosphere_027_Rock_0_329672304917_col.res
+│   ├── Icosphere_028_0_73333213351_col.tres
+│   ├── Icosphere_028_0_76403444080_col.res
+│   ├── Icosphere_028_0_86771763568_col.res
+│   ├── Icosphere_028_Material_003_0_288400353440_col.res
+│   ├── Icosphere_028_Material_003_0_327608706612_col.tres
+│   ├── Icosphere_028_Material_003_0_329739413785_col.res
+│   ├── Icosphere_029_Rock_0_288467462308_col.res
+│   ├── Icosphere_029_Rock_0_327642261046_col.tres
+│   ├── Icosphere_029_Rock_0_329806522653_col.res
+│   ├── Icosphere_030_Sand Rocks_0_289004333252_col.res
+│   ├── Icosphere_030_Sand Rocks_0_327910696518_col.tres
+│   ├── Icosphere_030_Sand Rocks_0_330343393597_col.res
+│   ├── Icosphere_031_Sand Rocks_0_289071442120_col.res
+│   ├── Icosphere_031_Sand Rocks_0_327944250952_col.tres
+│   ├── Icosphere_031_Sand Rocks_0_330410502465_col.res
+│   ├── Icosphere_032_Sand Rocks_0_289138550988_col.res
+│   ├── Icosphere_032_Sand Rocks_0_327977805386_col.tres
+│   ├── Icosphere_032_Sand Rocks_0_330477611333_col.res
+│   ├── Icosphere_033_Sand Rocks_0_289205659856_col.res
+│   ├── Icosphere_033_Sand Rocks_0_328011359820_col.tres
+│   ├── Icosphere_033_Sand Rocks_0_330544720201_col.res
+│   ├── Icosphere_034_Material_003_0_289608313064_col.res
+│   ├── Icosphere_034_Material_003_0_328212686424_col.tres
+│   ├── Icosphere_034_Material_003_0_330947373409_col.res
+│   ├── Icosphere_0_72595015803_col.tres
+│   ├── Icosphere_0_74625059078_col.res
+│   ├── Icosphere_0_84993378289_col.res
+│   ├── Icosphere_Material_003_0_283635623812_col.res
+│   ├── Icosphere_Material_003_0_324974684157_col.res
+│   ├── Icosphere_Material_003_0_325226341798_col.tres
+│   ├── Light_t_mat_0_220284850612_col.res
+│   ├── Light_t_mat_0_233840839929_col.res
+│   ├── Light_t_mat_0_237179505817_col.res
+│   ├── Light_t_mat_0_253184973635_col.tres
+│   ├── Light_t_mat_0_255349235377_col.res
+│   ├── Light_t_mat_0_268703898921_col.tres
+│   ├── Light_t_mat_0_73752643605_col.res
+│   ├── Mountain_A_0_271153374429_col.res
+│   ├── Mountain_A_0_300362507606_col.res
+│   ├── Mountain_A_0_314807690112_col.tres
+│   ├── Mountain_B_0_271203706080_col.res
+│   ├── Mountain_B_0_300412839257_col.res
+│   ├── Mountain_B_0_314824467329_col.tres
+│   ├── Moving_Asteroid_mat_001_0_220335182251_col.res
+│   ├── Moving_Asteroid_mat_001_0_233891171562_col.res
+│   ├── Moving_Asteroid_mat_001_0_237229837459_col.res
+│   ├── Moving_Asteroid_mat_001_0_253235305286_col.tres
+│   ├── Moving_Asteroid_mat_001_0_255399567030_col.res
+│   ├── Moving_Asteroid_mat_001_0_268754230572_col.tres
+│   ├── Moving_Asteroid_mat_001_0_73802975256_col.res
+│   ├── Moving_Asteroid_mat_002_0_220318405038_col.res
+│   ├── Moving_Asteroid_mat_002_0_233874394352_col.res
+│   ├── Moving_Asteroid_mat_002_0_237213060245_col.res
+│   ├── Moving_Asteroid_mat_002_0_253218528069_col.tres
+│   ├── Moving_Asteroid_mat_002_0_255382789812_col.res
+│   ├── Moving_Asteroid_mat_002_0_268737453355_col.tres
+│   ├── Moving_Asteroid_mat_002_0_73786198039_col.res
+│   ├── Object_10_225620004344_col.res
+│   ├── Object_10_242514665052_col.res
+│   ├── Object_10_249191997889_col.res
+│   ├── Object_10_257748376655_col.tres
+│   ├── Object_10_260986380427_col.res
+│   ├── Object_10_273535737413_col.tres
+│   ├── Object_10_277696487994_col.res
+│   ├── Object_10_289021108278_col.tres
+│   ├── Object_11_225670335983_col.res
+│   ├── Object_11_242564996703_col.res
+│   ├── Object_11_257765153872_col.tres
+│   ├── Object_11_261036712078_col.res
+│   ├── Object_11_273552514630_col.tres
+│   ├── Object_12_225720667622_col.res
+│   ├── Object_12_242615328354_col.res
+│   ├── Object_12_249259106757_col.res
+│   ├── Object_12_257781931089_col.tres
+│   ├── Object_12_261087043729_col.res
+│   ├── Object_12_273569291847_col.tres
+│   ├── Object_12_277763596862_col.res
+│   ├── Object_12_289054662712_col.tres
+│   ├── Object_12_312224000769_col.res
+│   ├── Object_12_318247021619_col.res
+│   ├── Object_12_354318035834_col.res
+│   ├── Object_12_360341056684_col.res
+│   ├── Object_12_363864271256_col.tres
+│   ├── Object_12_370558380746_col.tres
+│   ├── Object_13_261137375380_col.res
+│   ├── Object_13_273586069064_col.tres
+│   ├── Object_14_225787776474_col.res
+│   ├── Object_14_242682437222_col.res
+│   ├── Object_14_249326215625_col.res
+│   ├── Object_14_257815485523_col.tres
+│   ├── Object_14_261187707031_col.res
+│   ├── Object_14_273602846281_col.tres
+│   ├── Object_14_277830705730_col.res
+│   ├── Object_14_289088217146_col.tres
+│   ├── Object_14_312291109637_col.res
+│   ├── Object_14_318314130487_col.res
+│   ├── Object_14_354385144702_col.res
+│   ├── Object_14_360408165552_col.res
+│   ├── Object_14_363897825690_col.tres
+│   ├── Object_14_370591935180_col.tres
+│   ├── Object_15_261238038682_col.res
+│   ├── Object_15_273619623498_col.tres
+│   ├── Object_16_225854885326_col.res
+│   ├── Object_16_242749546090_col.res
+│   ├── Object_16_249393324493_col.res
+│   ├── Object_16_257849039957_col.tres
+│   ├── Object_16_261288370333_col.res
+│   ├── Object_16_273636400715_col.tres
+│   ├── Object_16_277897814598_col.res
+│   ├── Object_16_289121771580_col.tres
+│   ├── Object_17_225905216965_col.res
+│   ├── Object_17_242799877741_col.res
+│   ├── Object_17_257865817174_col.tres
+│   ├── Object_17_261338701984_col.res
+│   ├── Object_17_273653177932_col.tres
+│   ├── Object_18_249460433361_col.res
+│   ├── Object_18_261389033635_col.res
+│   ├── Object_18_273669955149_col.tres
+│   ├── Object_18_277964923466_col.res
+│   ├── Object_18_289155326014_col.tres
+│   ├── Object_18_312358218505_col.res
+│   ├── Object_18_318381239355_col.res
+│   ├── Object_18_354452253570_col.res
+│   ├── Object_18_360475274420_col.res
+│   ├── Object_18_363931380124_col.tres
+│   ├── Object_18_370625489614_col.tres
+│   ├── Object_19_225972325817_col.res
+│   ├── Object_19_242866986609_col.res
+│   ├── Object_19_257899371608_col.tres
+│   ├── Object_19_261439365286_col.res
+│   ├── Object_19_273686732366_col.tres
+│   ├── Object_20_249527542229_col.res
+│   ├── Object_20_261489696937_col.res
+│   ├── Object_20_273703509583_col.tres
+│   ├── Object_20_278032032334_col.res
+│   ├── Object_20_289188880448_col.tres
+│   ├── Object_20_312425327373_col.res
+│   ├── Object_20_318448348223_col.res
+│   ├── Object_20_354519362438_col.res
+│   ├── Object_20_360542383288_col.res
+│   ├── Object_20_363964934558_col.tres
+│   ├── Object_20_370659044048_col.tres
+│   ├── Object_22_249594651097_col.res
+│   ├── Object_22_278099141202_col.res
+│   ├── Object_22_289222434882_col.tres
+│   ├── Object_22_312492436241_col.res
+│   ├── Object_22_318515457091_col.res
+│   ├── Object_22_354586471306_col.res
+│   ├── Object_22_360609492156_col.res
+│   ├── Object_22_363998488992_col.tres
+│   ├── Object_22_370692598482_col.tres
+│   ├── Object_24_249661759965_col.res
+│   ├── Object_24_278166250070_col.res
+│   ├── Object_24_289255989316_col.tres
+│   ├── Object_26_249728868833_col.res
+│   ├── Object_26_278233358938_col.res
+│   ├── Object_26_289289543750_col.tres
+│   ├── Object_28_249795977701_col.res
+│   ├── Object_28_278300467806_col.res
+│   ├── Object_28_289323098184_col.tres
+│   ├── Object_30_249863086569_col.res
+│   ├── Object_30_278367576674_col.res
+│   ├── Object_30_289356652618_col.tres
+│   ├── Object_32_249930195437_col.res
+│   ├── Object_32_278434685542_col.res
+│   ├── Object_32_289390207052_col.tres
+│   ├── Object_34_249997304305_col.res
+│   ├── Object_34_278501794410_col.res
+│   ├── Object_34_289423761486_col.tres
+│   ├── Object_36_250064413173_col.res
+│   ├── Object_36_278568903278_col.res
+│   ├── Object_36_289457315920_col.tres
+│   ├── Object_38_250131522041_col.res
+│   ├── Object_38_278636012146_col.res
+│   ├── Object_38_289490870354_col.tres
+│   ├── Object_40_250198630909_col.res
+│   ├── Object_40_278703121014_col.res
+│   ├── Object_40_289524424788_col.tres
+│   ├── Object_42_250265739777_col.res
+│   ├── Object_42_278770229882_col.res
+│   ├── Object_42_289557979222_col.tres
+│   ├── Object_44_250332848645_col.res
+│   ├── Object_44_278837338750_col.res
+│   ├── Object_44_289591533656_col.tres
+│   ├── Object_46_250399957513_col.res
+│   ├── Object_46_278904447618_col.res
+│   ├── Object_46_289625088090_col.tres
+│   ├── Object_48_250467066381_col.res
+│   ├── Object_48_278971556486_col.res
+│   ├── Object_48_289658642524_col.tres
+│   ├── Object_4_225385123362_col.res
+│   ├── Object_4_242279784014_col.res
+│   ├── Object_4_248990671285_col.res
+│   ├── Object_4_257647713353_col.tres
+│   ├── Object_4_277495161390_col.res
+│   ├── Object_4_288920444976_col.tres
+│   ├── Object_4_312022674165_col.res
+│   ├── Object_4_318045695015_col.res
+│   ├── Object_4_354116709230_col.res
+│   ├── Object_4_360139730080_col.res
+│   ├── Object_4_363763607954_col.tres
+│   ├── Object_4_370457717444_col.tres
+│   ├── Object_50_250534175249_col.res
+│   ├── Object_50_279038665354_col.res
+│   ├── Object_50_289692196958_col.tres
+│   ├── Object_52_250601284117_col.res
+│   ├── Object_52_279105774222_col.res
+│   ├── Object_52_289725751392_col.tres
+│   ├── Object_54_250668392985_col.res
+│   ├── Object_54_279172883090_col.res
+│   ├── Object_54_289759305826_col.tres
+│   ├── Object_56_250735501853_col.res
+│   ├── Object_56_279239991958_col.res
+│   ├── Object_56_289792860260_col.tres
+│   ├── Object_58_250802610721_col.res
+│   ├── Object_58_279307100826_col.res
+│   ├── Object_58_289826414694_col.tres
+│   ├── Object_5_260734722172_col.res
+│   ├── Object_5_273451851328_col.tres
+│   ├── Object_60_250869719589_col.res
+│   ├── Object_60_279374209694_col.res
+│   ├── Object_60_289859969128_col.tres
+│   ├── Object_62_250936828457_col.res
+│   ├── Object_62_279441318562_col.res
+│   ├── Object_62_289893523562_col.tres
+│   ├── Object_64_251003937325_col.res
+│   ├── Object_64_279508427430_col.res
+│   ├── Object_64_289927077996_col.tres
+│   ├── Object_66_251071046193_col.res
+│   ├── Object_66_279575536298_col.res
+│   ├── Object_66_289960632430_col.tres
+│   ├── Object_68_251138155061_col.res
+│   ├── Object_68_279642645166_col.res
+│   ├── Object_68_289994186864_col.tres
+│   ├── Object_6_225452232214_col.res
+│   ├── Object_6_242346892882_col.res
+│   ├── Object_6_249057780153_col.res
+│   ├── Object_6_257681267787_col.tres
+│   ├── Object_6_260785053823_col.res
+│   ├── Object_6_273468628545_col.tres
+│   ├── Object_6_277562270258_col.res
+│   ├── Object_6_288953999410_col.tres
+│   ├── Object_6_312089783033_col.res
+│   ├── Object_6_318112803883_col.res
+│   ├── Object_6_354183818098_col.res
+│   ├── Object_6_360206838948_col.res
+│   ├── Object_6_363797162388_col.tres
+│   ├── Object_6_370491271878_col.tres
+│   ├── Object_70_251205263929_col.res
+│   ├── Object_70_279709754034_col.res
+│   ├── Object_70_290027741298_col.tres
+│   ├── Object_72_251272372797_col.res
+│   ├── Object_72_279776862902_col.res
+│   ├── Object_72_290061295732_col.tres
+│   ├── Object_74_251339481665_col.res
+│   ├── Object_74_279843971770_col.res
+│   ├── Object_74_290094850166_col.tres
+│   ├── Object_76_251406590533_col.res
+│   ├── Object_76_279911080638_col.res
+│   ├── Object_76_290128404600_col.tres
+│   ├── Object_78_251473699401_col.res
+│   ├── Object_78_279978189506_col.res
+│   ├── Object_78_290161959034_col.tres
+│   ├── Object_7_260835385474_col.res
+│   ├── Object_7_273485405762_col.tres
+│   ├── Object_80_251540808269_col.res
+│   ├── Object_80_280045298374_col.res
+│   ├── Object_80_290195513468_col.tres
+│   ├── Object_82_251607917137_col.res
+│   ├── Object_82_280112407242_col.res
+│   ├── Object_82_290229067902_col.tres
+│   ├── Object_84_251675026005_col.res
+│   ├── Object_84_280179516110_col.res
+│   ├── Object_84_290262622336_col.tres
+│   ├── Object_86_251742134873_col.res
+│   ├── Object_86_280246624978_col.res
+│   ├── Object_86_290296176770_col.tres
+│   ├── Object_8_225519341066_col.res
+│   ├── Object_8_242414001750_col.res
+│   ├── Object_8_249124889021_col.res
+│   ├── Object_8_257714822221_col.tres
+│   ├── Object_8_260885717125_col.res
+│   ├── Object_8_273502182979_col.tres
+│   ├── Object_8_277629379126_col.res
+│   ├── Object_8_288987553844_col.tres
+│   ├── Object_8_312156891901_col.res
+│   ├── Object_8_318179912751_col.res
+│   ├── Object_8_354250926966_col.res
+│   ├── Object_8_360273947816_col.res
+│   ├── Object_8_363830716822_col.tres
+│   ├── Object_8_370524826312_col.tres
+│   ├── Object_9_225569672705_col.res
+│   ├── Object_9_242464333401_col.res
+│   ├── Object_9_257731599438_col.tres
+│   ├── Object_9_260936048776_col.res
+│   ├── Object_9_273518960196_col.tres
+│   ├── PALM3_006_001_0_73752643776_col.tres
+│   ├── PALM3_006_001_0_77426854317_col.res
+│   ├── PALM3_006_001_0_87795173805_col.res
+│   ├── PALM3_006_001_1_73769420993_col.tres
+│   ├── PALM3_006_001_1_77477185968_col.res
+│   ├── PALM3_006_001_1_87845505456_col.res
+│   ├── PALM3_006_002_0_73802975427_col.tres
+│   ├── PALM3_006_002_0_77544294836_col.res
+│   ├── PALM3_006_002_0_87912614324_col.res
+│   ├── PALM3_006_002_1_73819752644_col.tres
+│   ├── PALM3_006_002_1_77594626487_col.res
+│   ├── PALM3_006_002_1_87962945975_col.res
+│   ├── PALM3_006_003_0_73853307078_col.tres
+│   ├── PALM3_006_003_0_77661735355_col.res
+│   ├── PALM3_006_003_0_88030054843_col.res
+│   ├── PALM3_006_003_1_73870084295_col.tres
+│   ├── PALM3_006_003_1_77712067006_col.res
+│   ├── PALM3_006_003_1_88080386494_col.res
+│   ├── PALM3_006_0_72494352501_col.tres
+│   ├── PALM3_006_0_74390178040_col.res
+│   ├── PALM3_006_0_84758497237_col.res
+│   ├── PALM3_006_1_72511129718_col.tres
+│   ├── PALM3_006_1_74440509691_col.res
+│   ├── PALM3_006_1_84808828891_col.res
+│   ├── PALM3_007_0_72544684152_col.tres
+│   ├── PALM3_007_0_74507618559_col.res
+│   ├── PALM3_007_0_84875937763_col.res
+│   ├── PALM3_007_1_72561461369_col.tres
+│   ├── PALM3_007_1_74557950210_col.res
+│   ├── PALM3_007_1_84926269417_col.res
+│   ├── PALM5_003_001_0_73651980474_col.tres
+│   ├── PALM5_003_001_0_77191973279_col.res
+│   ├── PALM5_003_001_0_87560292767_col.res
+│   ├── PALM5_003_001_1_73668757691_col.tres
+│   ├── PALM5_003_001_1_77242304930_col.res
+│   ├── PALM5_003_001_1_87610624418_col.res
+│   ├── PALM5_003_002_0_73702312125_col.tres
+│   ├── PALM5_003_002_0_77309413798_col.res
+│   ├── PALM5_003_002_0_87677733286_col.res
+│   ├── PALM5_003_002_1_73719089342_col.tres
+│   ├── PALM5_003_002_1_77359745449_col.res
+│   ├── PALM5_003_002_1_87728064937_col.res
+│   ├── PALM5_003_0_72444020850_col.tres
+│   ├── PALM5_003_0_74272737521_col.res
+│   ├── PALM5_003_0_84641056711_col.res
+│   ├── PALM5_003_1_72460798067_col.tres
+│   ├── PALM5_003_1_74323069172_col.res
+│   ├── PALM5_003_1_84691388365_col.res
+│   ├── PALM5_0_72393689199_col.tres
+│   ├── PALM5_0_74155297002_col.res
+│   ├── PALM5_0_84523616185_col.res
+│   ├── PALM5_1_72410466416_col.tres
+│   ├── PALM5_1_74205628653_col.res
+│   ├── PALM5_1_84573947839_col.res
+│   ├── Plane_001__0_126953197776_col.tres
+│   ├── Plane_001__0_128345707231_col.res
+│   ├── Plane_001__0_142220464463_col.res
+│   ├── Plane_002_Material_001_0_283367188340_col.res
+│   ├── Plane_002_Material_001_0_324706248685_col.res
+│   ├── Plane_002_Material_001_0_325092124062_col.tres
+│   ├── Plane_003_Material_001_0_284642256832_col.res
+│   ├── Plane_003_Material_001_0_325729658308_col.tres
+│   ├── Plane_003_Material_001_0_325981317177_col.res
+│   ├── Plane_004_Material_001_0_284709365700_col.res
+│   ├── Plane_004_Material_001_0_325763212742_col.tres
+│   ├── Plane_004_Material_001_0_326048426045_col.res
+│   ├── Plane_005_Material_001_0_286252869664_col.res
+│   ├── Plane_005_Material_001_0_326534964724_col.tres
+│   ├── Plane_005_Material_001_0_327591930009_col.res
+│   ├── Plane_006_001_0_73903638729_col.tres
+│   ├── Plane_006_001_0_77779175874_col.res
+│   ├── Plane_006_001_0_88147495362_col.res
+│   ├── Plane_006_001_1_73920415946_col.tres
+│   ├── Plane_006_001_1_77829507525_col.res
+│   ├── Plane_006_001_1_88197827013_col.res
+│   ├── Plane_006_002_0_73953970380_col.tres
+│   ├── Plane_006_002_0_77896616393_col.res
+│   ├── Plane_006_002_0_88264935881_col.res
+│   ├── Plane_006_002_1_73970747597_col.tres
+│   ├── Plane_006_002_1_77946948044_col.res
+│   ├── Plane_006_002_1_88315267532_col.res
+│   ├── Plane_006_0_72662124671_col.tres
+│   ├── Plane_006_0_74759276814_col.res
+│   ├── Plane_006_0_85127596033_col.res
+│   ├── Plane_006_1_72678901888_col.tres
+│   ├── Plane_006_1_74809608465_col.res
+│   ├── Plane_006_1_85177927687_col.res
+│   ├── Plane_006_Material_001_0_286319978532_col.res
+│   ├── Plane_006_Material_001_0_326568519158_col.tres
+│   ├── Plane_006_Material_001_0_327659038877_col.res
+│   ├── Plane_007_Material_001_0_286387087400_col.res
+│   ├── Plane_007_Material_001_0_326602073592_col.tres
+│   ├── Plane_007_Material_001_0_327726147745_col.res
+│   ├── Plane_008_Material_001_0_286454196268_col.res
+│   ├── Plane_008_Material_001_0_326635628026_col.tres
+│   ├── Plane_008_Material_001_0_327793256613_col.res
+│   ├── Plane_009_Material_001_0_287997700232_col.res
+│   ├── Plane_009_Material_001_0_327407380008_col.tres
+│   ├── Plane_009_Material_001_0_329336760577_col.res
+│   ├── Plane_010_Material_001_0_288534571176_col.res
+│   ├── Plane_010_Material_001_0_327675815480_col.tres
+│   ├── Plane_010_Material_001_0_329873631521_col.res
+│   ├── Plane_011_Material_001_0_288601680044_col.res
+│   ├── Plane_011_Material_001_0_327709369914_col.tres
+│   ├── Plane_011_Material_001_0_329940740389_col.res
+│   ├── Plane_012_Material_001_0_288668788912_col.res
+│   ├── Plane_012_Material_001_0_327742924348_col.tres
+│   ├── Plane_012_Material_001_0_330007849257_col.res
+│   ├── Plane_013_Material_001_0_288735897780_col.res
+│   ├── Plane_013_Material_001_0_327776478782_col.tres
+│   ├── Plane_013_Material_001_0_330074958125_col.res
+│   ├── Plane_014_0_73366767785_col.tres
+│   ├── Plane_014_0_76470552948_col.res
+│   ├── Plane_014_0_86838872436_col.res
+│   ├── Plane_014_1_73383545002_col.tres
+│   ├── Plane_014_1_76520884599_col.res
+│   ├── Plane_014_1_86889204087_col.res
+│   ├── Plane_014_2_73400322219_col.tres
+│   ├── Plane_014_2_76571216250_col.res
+│   ├── Plane_014_2_86939535738_col.res
+│   ├── Plane_014_3_73417099436_col.tres
+│   ├── Plane_014_3_76621547901_col.res
+│   ├── Plane_014_3_86989867389_col.res
+│   ├── Plane_014_Material_001_0_288803006648_col.res
+│   ├── Plane_014_Material_001_0_327810033216_col.tres
+│   ├── Plane_014_Material_001_0_330142066993_col.res
+│   ├── Plane_015_0_73450653870_col.tres
+│   ├── Plane_015_0_76688656769_col.res
+│   ├── Plane_015_0_87056976257_col.res
+│   ├── Plane_015_1_73467431087_col.tres
+│   ├── Plane_015_1_76738988420_col.res
+│   ├── Plane_015_1_87107307908_col.res
+│   ├── Plane_015_2_73484208304_col.tres
+│   ├── Plane_015_2_76789320071_col.res
+│   ├── Plane_015_2_87157639559_col.res
+│   ├── Plane_015_3_73500985521_col.tres
+│   ├── Plane_015_3_76839651722_col.res
+│   ├── Plane_015_3_87207971210_col.res
+│   ├── Plane_015_Material_001_0_288937224384_col.res
+│   ├── Plane_015_Material_001_0_327877142084_col.tres
+│   ├── Plane_015_Material_001_0_330276284729_col.res
+│   ├── Plane_016_0_73534539955_col.tres
+│   ├── Plane_016_0_76906760590_col.res
+│   ├── Plane_016_0_87275080078_col.res
+│   ├── Plane_016_1_73551317172_col.tres
+│   ├── Plane_016_1_76957092241_col.res
+│   ├── Plane_016_1_87325411729_col.res
+│   ├── Plane_016_2_73568094389_col.tres
+│   ├── Plane_016_2_77007423892_col.res
+│   ├── Plane_016_2_87375743380_col.res
+│   ├── Plane_016_3_73584871606_col.tres
+│   ├── Plane_016_3_77057755543_col.res
+│   ├── Plane_016_3_87426075031_col.res
+│   ├── Plane_016_Material_001_0_288870115516_col.res
+│   ├── Plane_016_Material_001_0_327843587650_col.tres
+│   ├── Plane_016_Material_001_0_330209175861_col.res
+│   ├── Plane_017_Brown_0_289725753583_col.res
+│   ├── Plane_017_Brown_0_328263018075_col.tres
+│   ├── Plane_017_Brown_0_331064813928_col.res
+│   ├── Plane_017_Material_003_0_289675421932_col.res
+│   ├── Plane_017_Material_003_0_328246240858_col.tres
+│   ├── Plane_017_Material_003_0_331014482277_col.res
+│   ├── Plane_018_Brown_0_291319589198_col.res
+│   ├── Plane_018_Brown_0_329051547274_col.tres
+│   ├── Plane_018_Brown_0_332658649543_col.res
+│   ├── Plane_018_Material_003_0_291269257547_col.res
+│   ├── Plane_018_Material_003_0_329034770057_col.tres
+│   ├── Plane_018_Material_003_0_332608317892_col.res
+│   ├── Plane_0_72158808161_col.tres
+│   ├── Plane_0_73685534926_col.res
+│   ├── Plane_0_84053853897_col.res
+│   ├── Plane__0_133697639010_col.tres
+│   ├── Plane__0_141834589699_col.res
+│   ├── Plane__0_155709346931_col.res
+│   ├── Sand_Sand_0_283971168152_col.res
+│   ├── Sand_Sand_0_325310228497_col.res
+│   ├── Sand_Sand_0_325394113968_col.tres
+│   ├── Sea_Material_005_0_284038277020_col.res
+│   ├── Sea_Material_005_0_325377337365_col.res
+│   ├── Sea_Material_005_0_325427668402_col.tres
+│   ├── Skybox_u_mat_0_220368736677_col.res
+│   ├── Skybox_u_mat_0_233924725985_col.res
+│   ├── Skybox_u_mat_0_237263391887_col.res
+│   ├── Skybox_u_mat_0_253268859720_col.tres
+│   ├── Skybox_u_mat_0_255433121465_col.res
+│   ├── Skybox_u_mat_0_268787785006_col.tres
+│   ├── Skybox_u_mat_0_73836529690_col.res
+│   ├── Sphere_001_Material_016_0_286722631740_col.res
+│   ├── Sphere_001_Material_016_0_326769845762_col.tres
+│   ├── Sphere_001_Material_016_0_328061692085_col.res
+│   ├── Sphere_002_Material_016_0_286588414004_col.res
+│   ├── Sphere_002_Material_016_0_326702736894_col.tres
+│   ├── Sphere_002_Material_016_0_327927474349_col.res
+│   ├── Spike_a_mat_0_220402291103_col.res
+│   ├── Spike_a_mat_0_233958280411_col.res
+│   ├── Spike_a_mat_0_237296946315_col.res
+│   ├── Spike_a_mat_0_253302414154_col.tres
+│   ├── Spike_a_mat_0_255466675899_col.res
+│   ├── Spike_a_mat_0_268821339440_col.tres
+│   ├── Spike_a_mat_0_73870084124_col.res
+│   ├── Spinning_Asteroid_mat_005_0_220435845529_col.res
+│   ├── Spinning_Asteroid_mat_005_0_233991834837_col.res
+│   ├── Spinning_Asteroid_mat_005_0_237330500743_col.res
+│   ├── Spinning_Asteroid_mat_005_0_253335968588_col.tres
+│   ├── Spinning_Asteroid_mat_005_0_255500230333_col.res
+│   ├── Spinning_Asteroid_mat_005_0_268854893874_col.tres
+│   ├── Spinning_Asteroid_mat_005_0_73903638558_col.res
+│   ├── axes_001_metal_0_141968806991_col.tres
+│   ├── axes_001_metal_0_159031237124_col.res
+│   ├── axes_001_metal_0_172905994356_col.res
+│   ├── axes_001_wood_004_0_141952029774_col.tres
+│   ├── axes_001_wood_004_0_158980905473_col.res
+│   ├── axes_001_wood_004_0_172855662705_col.res
+│   ├── axes_metal_0_141431936047_col.tres
+│   ├── axes_metal_0_157722614198_col.res
+│   ├── axes_metal_0_171597371430_col.res
+│   ├── axes_wood_001_0_141415158830_col.tres
+│   ├── axes_wood_001_0_157672282547_col.res
+│   ├── axes_wood_001_0_171547039779_col.res
+│   ├── barrel_000_barrel_001_0_141197055009_col.tres
+│   ├── barrel_000_barrel_001_0_157152188820_col.res
+│   ├── barrel_000_barrel_001_0_171026946052_col.res
+│   ├── barrel_000_barrel_0_141213832226_col.tres
+│   ├── barrel_000_barrel_0_157202520471_col.res
+│   ├── barrel_000_barrel_0_171077277703_col.res
+│   ├── barrel_000_metal_0_141180277792_col.tres
+│   ├── barrel_000_metal_0_157101857169_col.res
+│   ├── barrel_000_metal_0_170976614401_col.res
+│   ├── barrel_001_barrel_001_0_141264163877_col.tres
+│   ├── barrel_001_barrel_001_0_157319960990_col.res
+│   ├── barrel_001_barrel_001_0_171194718222_col.res
+│   ├── barrel_001_barrel_0_141280941094_col.tres
+│   ├── barrel_001_barrel_0_157370292641_col.res
+│   ├── barrel_001_barrel_0_171245049873_col.res
+│   ├── barrel_001_metal_0_141247386660_col.tres
+│   ├── barrel_001_metal_0_157269629339_col.res
+│   ├── barrel_001_metal_0_171144386571_col.res
+│   ├── barrel_002_barrel_001_0_141129946141_col.tres
+│   ├── barrel_002_barrel_001_0_156984416650_col.res
+│   ├── barrel_002_barrel_001_0_170859173882_col.res
+│   ├── barrel_002_barrel_0_141146723358_col.tres
+│   ├── barrel_002_barrel_0_157034748301_col.res
+│   ├── barrel_002_barrel_0_170909505533_col.res
+│   ├── barrel_002_metal_0_141113168924_col.tres
+│   ├── barrel_002_metal_0_156934084999_col.res
+│   ├── barrel_002_metal_0_170808842231_col.res
+│   ├── barrel_003_barrel_001_0_141348049962_col.tres
+│   ├── barrel_003_barrel_001_0_157538064811_col.res
+│   ├── barrel_003_barrel_001_0_171412822043_col.res
+│   ├── barrel_003_barrel_0_141331272745_col.tres
+│   ├── barrel_003_barrel_0_157487733160_col.res
+│   ├── barrel_003_barrel_0_171362490392_col.res
+│   ├── barrel_003_metal_0_141314495528_col.tres
+│   ├── barrel_003_metal_0_157437401509_col.res
+│   ├── barrel_003_metal_0_171312158741_col.res
+│   ├── bed_bed_001_0_126651207870_col.tres
+│   ├── bed_bed_001_0_127674618551_col.res
+│   ├── bed_bed_001_0_141549375783_col.res
+│   ├── bed_bed_003_0_126617653436_col.tres
+│   ├── bed_bed_003_0_127573955249_col.res
+│   ├── bed_bed_003_0_141448712481_col.res
+│   ├── bed_bed_0_126634430653_col.tres
+│   ├── bed_bed_0_127624286900_col.res
+│   ├── bed_bed_0_141499044132_col.res
+│   ├── box_001_wood_001_0_141582931000_col.tres
+│   ├── box_001_wood_001_0_158074935755_col.res
+│   ├── box_001_wood_001_0_171949692987_col.res
+│   ├── box_001_wood_004_0_141599708217_col.tres
+│   ├── box_001_wood_004_0_158125267406_col.res
+│   ├── box_001_wood_004_0_172000024638_col.res
+│   ├── box_002_wood_002_0_141633262651_col.tres
+│   ├── box_002_wood_002_0_158192376274_col.res
+│   ├── box_002_wood_002_0_172067133506_col.res
+│   ├── box_002_wood_004_0_141650039868_col.tres
+│   ├── box_002_wood_004_0_158242707925_col.res
+│   ├── box_002_wood_004_0_172117465157_col.res
+│   ├── box_003_wood_002_0_141683594302_col.tres
+│   ├── box_003_wood_002_0_158309816793_col.res
+│   ├── box_003_wood_002_0_172184574025_col.res
+│   ├── box_003_wood_004_0_141700371519_col.tres
+│   ├── box_003_wood_004_0_158360148444_col.res
+│   ├── box_003_wood_004_0_172234905676_col.res
+│   ├── box_004_wood_001_0_141733925953_col.tres
+│   ├── box_004_wood_001_0_158427257312_col.res
+│   ├── box_004_wood_001_0_172302014544_col.res
+│   ├── box_004_wood_004_0_141750703170_col.tres
+│   ├── box_004_wood_004_0_158477588963_col.res
+│   ├── box_004_wood_004_0_172352346195_col.res
+│   ├── box_005_wood_002_0_141784257604_col.tres
+│   ├── box_005_wood_002_0_158544697831_col.res
+│   ├── box_005_wood_002_0_172419455063_col.res
+│   ├── box_005_wood_004_0_141801034821_col.tres
+│   ├── box_005_wood_004_0_158595029482_col.res
+│   ├── box_005_wood_004_0_172469786714_col.res
+│   ├── box_wood_001_0_141532599349_col.tres
+│   ├── box_wood_001_0_157957495236_col.res
+│   ├── box_wood_001_0_171832252468_col.res
+│   ├── box_wood_004_0_141549376566_col.tres
+│   ├── box_wood_004_0_158007826887_col.res
+│   ├── box_wood_004_0_171882584119_col.res
+│   ├── bridge_barrel_001_0_141851366472_col.tres
+│   ├── bridge_barrel_001_0_158712470001_col.res
+│   ├── bridge_barrel_001_0_172587227233_col.res
+│   ├── bridge_bed_001_0_141901698123_col.tres
+│   ├── bridge_bed_001_0_158863464954_col.res
+│   ├── bridge_bed_001_0_172738222186_col.res
+│   ├── bridge_bed_002_0_141868143689_col.tres
+│   ├── bridge_bed_002_0_158762801652_col.res
+│   ├── bridge_bed_002_0_172637558884_col.res
+│   ├── bridge_cabin_001_0_141834589255_col.tres
+│   ├── bridge_cabin_001_0_158662138350_col.res
+│   ├── bridge_cabin_001_0_172536895582_col.res
+│   ├── bridge_wood_001_0_141918475340_col.tres
+│   ├── bridge_wood_001_0_158913796605_col.res
+│   ├── bridge_wood_001_0_172788553837_col.res
+│   ├── bridge_wood_0_141884920906_col.tres
+│   ├── bridge_wood_0_158813133303_col.res
+│   ├── bridge_wood_0_172687890535_col.res
+│   ├── bumps_bumps_001_0_142270796897_col.tres
+│   ├── bumps_bumps_001_0_159802989106_col.res
+│   ├── bumps_bumps_001_0_173677746338_col.res
+│   ├── bumps_bumps_0_142254019680_col.tres
+│   ├── bumps_bumps_0_159752657455_col.res
+│   ├── bumps_bumps_0_173627414687_col.res
+│   ├── bumps_coal_001_0_142304351331_col.tres
+│   ├── bumps_coal_001_0_159903652408_col.res
+│   ├── bumps_coal_001_0_173778409640_col.res
+│   ├── bumps_coal_0_142287574114_col.tres
+│   ├── bumps_coal_0_159853320757_col.res
+│   ├── bumps_coal_0_173728077989_col.res
+│   ├── liana_Material_001_0_142438569067_col.tres
+│   ├── liana_Material_001_0_160205642314_col.res
+│   ├── liana_Material_001_0_174080399546_col.res
+│   ├── mate_Mat_0_126785425606_col.tres
+│   ├── mate_Mat_0_127976608457_col.res
+│   ├── mate_Mat_0_141851365689_col.res
+│   ├── mountains_bottom_1_0_265063244733_col.res
+│   ├── mountains_bottom_1_0_294071051318_col.res
+│   ├── mountains_bottom_1_0_308314907225_col.tres
+│   ├── mountains_bottom_2_0_264962581431_col.res
+│   ├── mountains_bottom_2_0_293970388016_col.res
+│   ├── mountains_bottom_2_0_308281352791_col.tres
+│   ├── mountains_interior_0_265163908035_col.res
+│   ├── mountains_interior_0_294171714620_col.res
+│   ├── mountains_interior_0_308348461659_col.tres
+│   ├── mountains_top_1_0_265012913082_col.res
+│   ├── mountains_top_1_0_294020719667_col.res
+│   ├── mountains_top_1_0_308298130008_col.tres
+│   ├── mountains_top_2_0_265113576384_col.res
+│   ├── mountains_top_2_0_294121382969_col.res
+│   ├── mountains_top_2_0_308331684442_col.tres
+│   ├── mug_001_barrel_0_141482267698_col.tres
+│   ├── mug_001_barrel_0_157840054717_col.res
+│   ├── mug_001_barrel_0_171714811949_col.res
+│   ├── mug_001_beerhop_0_141499044915_col.tres
+│   ├── mug_001_beerhop_0_157890386368_col.res
+│   ├── mug_001_beerhop_0_171765143600_col.res
+│   ├── mug_001_roof_0_141465490481_col.tres
+│   ├── mug_001_roof_0_157789723066_col.res
+│   ├── mug_001_roof_0_171664480298_col.res
+│   ├── mug_barrel_0_141046060056_col.tres
+│   ├── mug_barrel_0_156766312829_col.res
+│   ├── mug_barrel_0_170641070061_col.res
+│   ├── mug_beerhop_0_141079614490_col.tres
+│   ├── mug_beerhop_0_156866976131_col.res
+│   ├── mug_beerhop_0_170741733363_col.res
+│   ├── mug_roof_0_141062837273_col.tres
+│   ├── mug_roof_0_156816644480_col.res
+│   ├── mug_roof_0_170691401712_col.res
+│   ├── pepelaz_metal_0_142203688029_col.tres
+│   ├── pepelaz_metal_0_159635216936_col.res
+│   ├── pepelaz_metal_0_173509974168_col.res
+│   ├── pepelaz_metalblack_001_0_142186910812_col.tres
+│   ├── pepelaz_metalblack_001_0_159584885285_col.res
+│   ├── pepelaz_metalblack_001_0_173459642517_col.res
+│   ├── pepelaz_metalblack_002_0_142220465246_col.tres
+│   ├── pepelaz_metalblack_002_0_159685548587_col.res
+│   ├── pepelaz_metalblack_002_0_173560305819_col.res
+│   ├── pepelaz_metalblack_0_142170133595_col.tres
+│   ├── pepelaz_metalblack_0_159534553634_col.res
+│   ├── pepelaz_metalblack_0_173409310866_col.res
+│   ├── rope_rope_0_141012505622_col.tres
+│   ├── rope_rope_0_156699203961_col.res
+│   ├── rope_rope_0_170573961193_col.res
+│   ├── sack_rope_001_0_140978951188_col.tres
+│   ├── sack_rope_001_0_156632095093_col.res
+│   ├── sack_rope_001_0_170506852325_col.res
+│   ├── stand_shield_0_141381604396_col.tres
+│   ├── stand_shield_0_157605173679_col.res
+│   ├── stand_shield_0_171479930911_col.res
+│   ├── stool2_barrel_001_0_126818980040_col.tres
+│   ├── stool2_barrel_001_0_128043717325_col.res
+│   ├── stool2_barrel_001_0_141918474557_col.res
+│   ├── stool2_barrel_0_126835757257_col.tres
+│   ├── stool2_barrel_0_128094048976_col.res
+│   ├── stool2_barrel_0_141968806208_col.res
+│   ├── stool_barrel_001_0_126751871172_col.tres
+│   ├── stool_barrel_001_0_127909499589_col.res
+│   ├── stool_barrel_001_0_141784256821_col.res
+│   ├── stool_barrel_0_126735093955_col.tres
+│   ├── stool_barrel_0_127859167938_col.res
+│   ├── stool_barrel_0_141733925170_col.res
+│   ├── swamp_swamp_0_142405014633_col.tres
+│   ├── swamp_swamp_0_160138533446_col.res
+│   ├── swamp_swamp_0_174013290678_col.res
+│   ├── table_bed_001_0_126701539521_col.tres
+│   ├── table_bed_001_0_127792059070_col.res
+│   ├── table_bed_001_0_141666816302_col.res
+│   ├── table_bed_002_0_126684762304_col.tres
+│   ├── table_bed_002_0_127741727419_col.res
+│   ├── table_bed_002_0_141616484651_col.res
+│   ├── tree_wood_001_0_142371460199_col.tres
+│   ├── tree_wood_001_0_160071424578_col.res
+│   ├── tree_wood_001_0_173946181810_col.res
+│   ├── tree_wood_003_0_142354682982_col.tres
+│   ├── tree_wood_003_0_160021092927_col.res
+│   ├── tree_wood_003_0_173895850159_col.res
+│   ├── tree_wood_0_142337905765_col.tres
+│   ├── tree_wood_0_159970761276_col.res
+│   └── tree_wood_0_173845518508_col.res
+├── batch_baker.gd
+├── batch_baker.gd.uid
+├── batchbaker.tscn
+├── beast_fragment.tscn
+├── ben10_3d_null_void.glb
+├── ben10_3d_null_void_0.png
+├── ben10_3d_null_void_1.png
+├── ben10_3d_null_void_2.png
+├── ben10_3d_null_void_3.png
+├── ben10_3d_null_void_4.png
+├── ben10_3d_null_void_5.png
+├── ben10_3d_null_void_6.png
+├── ben10_3d_null_void_7.png
+├── ben10_3d_null_void_8.png
+├── ben10_3d_null_void_9.png
+├── bluebus.tscn
+├── bondingaltar.gd
+├── bondingaltar.gd.uid
+├── bus.tscn
+├── c_4.gd
+├── c_4.gd.uid
+├── call_of_duty_black_ops_cold_war_-_magnum.glb
+├── call_of_duty_black_ops_cold_war_-_magnum_0.png
+├── call_of_duty_black_ops_cold_war_-_magnum_1.png
+├── call_of_duty_black_ops_cold_war_-_magnum_10.png
+├── call_of_duty_black_ops_cold_war_-_magnum_11.png
+├── call_of_duty_black_ops_cold_war_-_magnum_12.png
+├── call_of_duty_black_ops_cold_war_-_magnum_13.png
+├── call_of_duty_black_ops_cold_war_-_magnum_14.png
+├── call_of_duty_black_ops_cold_war_-_magnum_15.png
+├── call_of_duty_black_ops_cold_war_-_magnum_16.png
+├── call_of_duty_black_ops_cold_war_-_magnum_17.png
+├── call_of_duty_black_ops_cold_war_-_magnum_18.png
+├── call_of_duty_black_ops_cold_war_-_magnum_19.png
+├── call_of_duty_black_ops_cold_war_-_magnum_2.png
+├── call_of_duty_black_ops_cold_war_-_magnum_20.png
+├── call_of_duty_black_ops_cold_war_-_magnum_21.png
+├── call_of_duty_black_ops_cold_war_-_magnum_22.png
+├── call_of_duty_black_ops_cold_war_-_magnum_23.png
+├── call_of_duty_black_ops_cold_war_-_magnum_24.png
+├── call_of_duty_black_ops_cold_war_-_magnum_25.png
+├── call_of_duty_black_ops_cold_war_-_magnum_26.png
+├── call_of_duty_black_ops_cold_war_-_magnum_27.png
+├── call_of_duty_black_ops_cold_war_-_magnum_28.png
+├── call_of_duty_black_ops_cold_war_-_magnum_3.png
+├── call_of_duty_black_ops_cold_war_-_magnum_4.png
+├── call_of_duty_black_ops_cold_war_-_magnum_5.png
+├── call_of_duty_black_ops_cold_war_-_magnum_6.png
+├── call_of_duty_black_ops_cold_war_-_magnum_7.png
+├── call_of_duty_black_ops_cold_war_-_magnum_8.png
+├── call_of_duty_black_ops_cold_war_-_magnum_9.png
+├── camera_3d.gd
+├── camera_3d.gd.uid
+├── canvas_layer.gd
+├── canvas_layer.gd.uid
+├── canvas_layer.tscn
+├── chomei(7).glb
+├── chomeihab.tscn
+├── ciel_sheet.png
+├── city_lights.gd
+├── city_lights.gd.uid
+├── city_lights.tscn
+├── collisionbaker.gd
+├── collisionbaker.gd.uid
+├── color.png
+├── control.gd
+├── control.gd.uid
+├── crickets.mp3
+├── cross_icon.png
+├── cube_car.gd
+├── cube_car.gd.uid
+├── cube_car.tscn
+├── default_bus_layout.tres
+├── defender.tscn
+├── desert_city.gd
+├── desert_city.gd.uid
+├── destructible.gd
+├── destructible.gd.uid
+├── directional_light_3d.gd
+├── directional_light_3d.gd.uid
+├── easteregg.glb
+├── enginetrain_0.png
+├── enginetrain_1.png
+├── enginetrain_2.png
+├── enginetrain_3.png
+├── enginetrain_4.png
+├── enginetrain_5.png
+├── enginetrain_6.png
+├── enginetrain_7.png
+├── enginetrain_8.png
+├── enginetrain_9.png
+├── export_presets.cfg
+├── finalfinalpolice_AK47_.png
+├── finalfinalpolice_AK47__1.png
+├── finalfinalpolice_AK47__10.png
+├── finalfinalpolice_AK47__11.png
+├── finalfinalpolice_AK47__12.png
+├── finalfinalpolice_AK47__13.png
+├── finalfinalpolice_AK47__14.png
+├── finalfinalpolice_AK47__15.png
+├── finalfinalpolice_AK47__16.png
+├── finalfinalpolice_AK47__17.png
+├── finalfinalpolice_AK47__18.png
+├── finalfinalpolice_AK47__19.png
+├── finalfinalpolice_AK47__2.png
+├── finalfinalpolice_AK47__20.png
+├── finalfinalpolice_AK47__21.png
+├── finalfinalpolice_AK47__22.png
+├── finalfinalpolice_AK47__23.png
+├── finalfinalpolice_AK47__24.png
+├── finalfinalpolice_AK47__25.png
+├── finalfinalpolice_AK47__26.png
+├── finalfinalpolice_AK47__27.png
+├── finalfinalpolice_AK47__28.png
+├── finalfinalpolice_AK47__29.png
+├── finalfinalpolice_AK47__3.png
+├── finalfinalpolice_AK47__30.png
+├── finalfinalpolice_AK47__31.png
+├── finalfinalpolice_AK47__32.png
+├── finalfinalpolice_AK47__33.png
+├── finalfinalpolice_AK47__34.png
+├── finalfinalpolice_AK47__35.png
+├── finalfinalpolice_AK47__36.png
+├── finalfinalpolice_AK47__37.png
+├── finalfinalpolice_AK47__38.png
+├── finalfinalpolice_AK47__39.png
+├── finalfinalpolice_AK47__4.png
+├── finalfinalpolice_AK47__40.png
+├── finalfinalpolice_AK47__41.png
+├── finalfinalpolice_AK47__42.png
+├── finalfinalpolice_AK47__43.png
+├── finalfinalpolice_AK47__44.png
+├── finalfinalpolice_AK47__45.png
+├── finalfinalpolice_AK47__46.png
+├── finalfinalpolice_AK47__47.png
+├── finalfinalpolice_AK47__48.png
+├── finalfinalpolice_AK47__49.png
+├── finalfinalpolice_AK47__5.png
+├── finalfinalpolice_AK47__50.png
+├── finalfinalpolice_AK47__51.png
+├── finalfinalpolice_AK47__52.png
+├── finalfinalpolice_AK47__53.png
+├── finalfinalpolice_AK47__54.png
+├── finalfinalpolice_AK47__55.png
+├── finalfinalpolice_AK47__56.png
+├── finalfinalpolice_AK47__57.png
+├── finalfinalpolice_AK47__58.png
+├── finalfinalpolice_AK47__59.png
+├── finalfinalpolice_AK47__6.png
+├── finalfinalpolice_AK47__60.png
+├── finalfinalpolice_AK47__61.png
+├── finalfinalpolice_AK47__7.png
+├── finalfinalpolice_AK47__8.png
+├── finalfinalpolice_AK47__9.png
+├── finalfinalpolice_Beardmat_1.png
+├── finalfinalpolice_Bodymat_1.png
+├── finalfinalpolice_Bodymat_1_64.png
+├── finalfinalpolice_Bodymat_1_65.png
+├── finalfinalpolice_Bottommat_1.png
+├── finalfinalpolice_Eyewearmat_1.png
+├── finalfinalpolice_Hairmat_1.png
+├── finalfinalpolice_Hatmat_1.png
+├── finalfinalpolice_Moustachemat_1.png
+├── finalfinalpolice_Shoesmat_1.png
+├── finalfinalpolice_Topmat_1.png
+├── finalpolice_AK47_.png
+├── finalpolice_AK47__1.png
+├── finalpolice_AK47__10.png
+├── finalpolice_AK47__11.png
+├── finalpolice_AK47__12.png
+├── finalpolice_AK47__13.png
+├── finalpolice_AK47__14.png
+├── finalpolice_AK47__15.png
+├── finalpolice_AK47__16.png
+├── finalpolice_AK47__17.png
+├── finalpolice_AK47__18.png
+├── finalpolice_AK47__19.png
+├── finalpolice_AK47__2.png
+├── finalpolice_AK47__20.png
+├── finalpolice_AK47__21.png
+├── finalpolice_AK47__22.png
+├── finalpolice_AK47__23.png
+├── finalpolice_AK47__24.png
+├── finalpolice_AK47__25.png
+├── finalpolice_AK47__26.png
+├── finalpolice_AK47__27.png
+├── finalpolice_AK47__28.png
+├── finalpolice_AK47__29.png
+├── finalpolice_AK47__3.png
+├── finalpolice_AK47__30.png
+├── finalpolice_AK47__31.png
+├── finalpolice_AK47__32.png
+├── finalpolice_AK47__33.png
+├── finalpolice_AK47__34.png
+├── finalpolice_AK47__35.png
+├── finalpolice_AK47__36.png
+├── finalpolice_AK47__37.png
+├── finalpolice_AK47__38.png
+├── finalpolice_AK47__39.png
+├── finalpolice_AK47__4.png
+├── finalpolice_AK47__40.png
+├── finalpolice_AK47__41.png
+├── finalpolice_AK47__42.png
+├── finalpolice_AK47__43.png
+├── finalpolice_AK47__44.png
+├── finalpolice_AK47__45.png
+├── finalpolice_AK47__46.png
+├── finalpolice_AK47__47.png
+├── finalpolice_AK47__48.png
+├── finalpolice_AK47__49.png
+├── finalpolice_AK47__5.png
+├── finalpolice_AK47__50.png
+├── finalpolice_AK47__51.png
+├── finalpolice_AK47__52.png
+├── finalpolice_AK47__53.png
+├── finalpolice_AK47__54.png
+├── finalpolice_AK47__55.png
+├── finalpolice_AK47__56.png
+├── finalpolice_AK47__57.png
+├── finalpolice_AK47__58.png
+├── finalpolice_AK47__59.png
+├── finalpolice_AK47__6.png
+├── finalpolice_AK47__60.png
+├── finalpolice_AK47__61.png
+├── finalpolice_AK47__7.png
+├── finalpolice_AK47__8.png
+├── finalpolice_AK47__9.png
+├── fist.png
+├── free_animated_pump_shotgun.glb
+├── free_animated_pump_shotgun_0.png
+├── free_animated_pump_shotgun_1.png
+├── free_animated_pump_shotgun_2.png
+├── free_animated_pump_shotgun_3.png
+├── free_animated_pump_shotgun_4.png
+├── gokuhab.tscn
+├── great_sage.gif
+├── great_sage.mp4
+├── gyuki(8).glb
+├── gyukihab.tscn
+├── hathidah.glb
+├── hathidah.png
+├── hathidah_terrain.gd
+├── hathidah_terrain.gd.uid
+├── headlight.png
+├── height.png
+├── icon.svg
+├── idle.res
+├── indian_police_cop_3d_model_rigged_0.png
+├── indian_police_cop_3d_model_rigged_1.png
+├── indian_police_cop_3d_model_rigged_10.png
+├── indian_police_cop_3d_model_rigged_11.png
+├── indian_police_cop_3d_model_rigged_12.png
+├── indian_police_cop_3d_model_rigged_13.png
+├── indian_police_cop_3d_model_rigged_14.png
+├── indian_police_cop_3d_model_rigged_15.png
+├── indian_police_cop_3d_model_rigged_16.png
+├── indian_police_cop_3d_model_rigged_17.png
+├── indian_police_cop_3d_model_rigged_18.png
+├── indian_police_cop_3d_model_rigged_19.png
+├── indian_police_cop_3d_model_rigged_2.png
+├── indian_police_cop_3d_model_rigged_20.png
+├── indian_police_cop_3d_model_rigged_21.png
+├── indian_police_cop_3d_model_rigged_22.png
+├── indian_police_cop_3d_model_rigged_23.png
+├── indian_police_cop_3d_model_rigged_24.png
+├── indian_police_cop_3d_model_rigged_25.png
+├── indian_police_cop_3d_model_rigged_26.png
+├── indian_police_cop_3d_model_rigged_3.png
+├── indian_police_cop_3d_model_rigged_4.png
+├── indian_police_cop_3d_model_rigged_5.png
+├── indian_police_cop_3d_model_rigged_6.png
+├── indian_police_cop_3d_model_rigged_7.png
+├── indian_police_cop_3d_model_rigged_8.png
+├── indian_police_cop_3d_model_rigged_9.png
+├── indian_police_cop_3d_model_rigged_Beardmat_1.png
+├── indian_police_cop_3d_model_rigged_Bodymat_1.png
+├── indian_police_cop_3d_model_rigged_Bodymat_1_2.png
+├── indian_police_cop_3d_model_rigged_Bodymat_1_3.png
+├── indian_police_cop_3d_model_rigged_Bottommat_1.png
+├── indian_police_cop_3d_model_rigged_Eyewearmat_1.png
+├── indian_police_cop_3d_model_rigged_Hairmat_1.png
+├── indian_police_cop_3d_model_rigged_Hatmat_1.png
+├── indian_police_cop_3d_model_rigged_Moustachemat_1.png
+├── indian_police_cop_3d_model_rigged_Shoesmat_1.png
+├── indian_police_cop_3d_model_rigged_Topmat_1.png
+├── interior_cam.gd
+├── interior_cam.gd.uid
+├── ios
+│   └── plugins
+│       ├── package.gd
+│       ├── package.gd.uid
+│       ├── poing-godot-admob
+│       │   └── bin
+│       │       ├── poing-godot-admob-ads.debug.xcframework
+│       │       │   ├── Info.plist
+│       │       │   ├── ios-arm64
+│       │       │   │   └── libpoing-godot-admob-ads.arm64-ios.release_debug.a
+│       │       │   └── ios-arm64_x86_64-simulator
+│       │       │       └── poing-godot-admob-ads.simulator.release_debug.a
+│       │       ├── poing-godot-admob-ads.release.xcframework
+│       │       │   ├── Info.plist
+│       │       │   ├── ios-arm64
+│       │       │   │   └── libpoing-godot-admob-ads.arm64-ios.release.a
+│       │       │   └── ios-arm64_x86_64-simulator
+│       │       │       └── poing-godot-admob-ads.simulator.release.a
+│       │       ├── poing-godot-admob-meta.debug.xcframework
+│       │       │   ├── Info.plist
+│       │       │   ├── ios-arm64
+│       │       │   │   └── libpoing-godot-admob-meta.arm64-ios.release_debug.a
+│       │       │   └── ios-arm64_x86_64-simulator
+│       │       │       └── poing-godot-admob-meta.simulator.release_debug.a
+│       │       ├── poing-godot-admob-meta.release.xcframework
+│       │       │   ├── Info.plist
+│       │       │   ├── ios-arm64
+│       │       │   │   └── libpoing-godot-admob-meta.arm64-ios.release.a
+│       │       │   └── ios-arm64_x86_64-simulator
+│       │       │       └── poing-godot-admob-meta.simulator.release.a
+│       │       ├── poing-godot-admob-vungle.debug.xcframework
+│       │       │   ├── Info.plist
+│       │       │   ├── ios-arm64
+│       │       │   │   └── libpoing-godot-admob-vungle.arm64-ios.release_debug.a
+│       │       │   └── ios-arm64_x86_64-simulator
+│       │       │       └── poing-godot-admob-vungle.simulator.release_debug.a
+│       │       └── poing-godot-admob-vungle.release.xcframework
+│       │           ├── Info.plist
+│       │           ├── ios-arm64
+│       │           │   └── libpoing-godot-admob-vungle.arm64-ios.release.a
+│       │           └── ios-arm64_x86_64-simulator
+│       │               └── poing-godot-admob-vungle.simulator.release.a
+│       ├── poing-godot-admob-ads.gdip
+│       ├── poing-godot-admob-meta.gdip
+│       └── poing-godot-admob-vungle.gdip
+├── isobu(3).glb
+├── isobuhab.tscn
+├── kamui.jpg
+├── kamuidimension.gd
+├── kamuidimension.gd.uid
+├── kamuisfx.mp3
+├── kinematic_car.gd
+├── kinematic_car.gd.uid
+├── kokuo(5).glb
+├── kokuo(5)_0.png
+├── kokuo(5)_1.png
+├── kokuo(5)_2.png
+├── kokuo(5)_3.png
+├── kokuo(5)_3.png.import-U2Phoe
+├── kokuohab.tscn
+├── kurama(9).glb
+├── kurama(9)_0.png
+├── kurama__animation_free_fire.glb
+├── kurama__animation_free_fire_0.png
+├── kuramahab.tscn
+├── land_rover__defender_110.glb
+├── land_rover__defender_110_0.png
+├── land_rover__defender_110_1.png
+├── land_rover__defender_110_10.png
+├── land_rover__defender_110_11.png
+├── land_rover__defender_110_12.png
+├── land_rover__defender_110_13.png
+├── land_rover__defender_110_14.png
+├── land_rover__defender_110_15.png
+├── land_rover__defender_110_16.png
+├── land_rover__defender_110_17.png
+├── land_rover__defender_110_18.png
+├── land_rover__defender_110_19.png
+├── land_rover__defender_110_2.png
+├── land_rover__defender_110_20.png
+├── land_rover__defender_110_21.png
+├── land_rover__defender_110_22.png
+├── land_rover__defender_110_23.png
+├── land_rover__defender_110_24.png
+├── land_rover__defender_110_25.png
+├── land_rover__defender_110_26.png
+├── land_rover__defender_110_27.png
+├── land_rover__defender_110_28.png
+├── land_rover__defender_110_29.png
+├── land_rover__defender_110_3.png
+├── land_rover__defender_110_30.png
+├── land_rover__defender_110_31.png
+├── land_rover__defender_110_32.png
+├── land_rover__defender_110_33.png
+├── land_rover__defender_110_4.png
+├── land_rover__defender_110_5.png
+├── land_rover__defender_110_6.png
+├── land_rover__defender_110_7.png
+├── land_rover__defender_110_8.png
+├── land_rover__defender_110_9.png
+├── land_rover_range_rover_sport_-_2023.glb
+├── land_rover_range_rover_sport_-_2023_0.png
+├── landrover.tscn
+├── loading_screen.gd
+├── loading_screen.gd.uid
+├── loading_screen.tscn
+├── login_screen.gd
+├── login_screen.gd.bak
+├── login_screen.gd.uid
+├── low_poly_city.gd
+├── low_poly_city.gd.uid
+├── low_poly_city.glb
+├── low_poly_city_0.png
+├── low_poly_city_1.png
+├── low_poly_desert.glb
+├── main.tscn
+├── main.tscn.bak
+├── main_menu.gd
+├── main_menu.gd.uid
+├── main_menu.tscn
+├── map_collision.obj
+├── map_loader.gd
+├── map_loader.gd.uid
+├── map_optimizer.gd
+├── map_optimizer.gd.uid
+├── map_optimizer.tscn
+├── masterbaker.gd
+├── masterbaker.gd.uid
+├── masterbaker.tscn
+├── matatabi(two).glb
+├── matatabi(two)_0.png
+├── matatabi(two)_1.png
+├── matatabi(two)_10.png
+├── matatabi(two)_11.png
+├── matatabi(two)_12.png
+├── matatabi(two)_2.png
+├── matatabi(two)_3.png
+├── matatabi(two)_4.png
+├── matatabi(two)_5.png
+├── matatabi(two)_5.png.import-L8z9v7
+├── matatabi(two)_6.png
+├── matatabi(two)_7.png
+├── matatabi(two)_8.png
+├── matatabi(two)_9.png
+├── matatabihab.tscn
+├── material.mtl
+├── material_0.png
+├── merge.py
+├── meta
+│   ├── libs
+│   │   ├── poing-godot-admob-meta-debug.aar
+│   │   └── poing-godot-admob-meta-release.aar
+│   ├── poing_godot_admob_meta.gd
+│   └── poing_godot_admob_meta.gd.uid
+├── meteor.gd
+├── meteor.gd.uid
+├── meteor.tscn
+├── model.glb
+├── mystery.mp3
+├── network_manager.gd
+├── network_manager.gd.bak
+├── network_manager.gd.uid
+├── network_manager.tscn
+├── newpoliceshoot.gltf
+├── newpoliceshoot_Man_test_4Material__173_.png
+├── newpoliceshoot_lambert3_.png
+├── newpoliceshoot_lambert4_.png
+├── newpolicewithgun.gltf
+├── newpolicewithgun_M16A3_.png
+├── newpolicewithgun_M16A3__1.png
+├── newpolicewithgun_M16A3__2.png
+├── newpolicewithgun_M16A3__3.png
+├── newpolicewithgun_M16A3__4.png
+├── newpolicewithgun_M16A3__5.png
+├── newpolicewithgun_M16A3__6.png
+├── newpolicewithgun_M16A3__7.png
+├── newpolicewithgun_M16A3__8.png
+├── newpolicewithgun_M16A3__9.png
+├── newpolicewithgun_Man_test_4Material__173_.png
+├── newpolicewithgun_lambert3_.png
+├── newpolicewithgun_lambert4_.png
+├── nine_tails.tscn
+├── node.gd
+├── node.gd.uid
+├── noun-pedals-7386885.png
+├── noun-pedals-7386890.png
+├── npc.anim
+├── npc.gd
+├── npc.gd.uid
+├── npc.tscn
+├── npc_spawner.tscn
+├── original_backrooms.glb
+├── original_backrooms_0.png
+├── original_backrooms_1.png
+├── original_backrooms_2.png
+├── original_backrooms_3.png
+├── original_backrooms_4.png
+├── oscene.tscn
+├── package.gd
+├── package.gd.uid
+├── phone_ui.gd
+├── phone_ui.gd.bak
+├── phone_ui.gd.uid
+├── phone_ui.tscn
+├── pistol-shot.mp3
+├── pistol.png
+├── plane (1)_Spaceship_Albedo.png
+├── plane (1)_Spaceship_Albedo_1.png
+├── plane (1)_Spaceship_Albedo_2.png
+├── plane (1)_Spaceship_Albedo_3.png
+├── plane (1)_Spaceship_Albedo_4.png
+├── plane (1)_Spaceship_Albedo_5.png
+├── plane (1)_Spaceship_Albedo_6.png
+├── plane (1)_Spaceship_Albedo_7.png
+├── plane_Spaceship_Albedo.png
+├── plane_Spaceship_Albedo_1.png
+├── plane_Spaceship_Albedo_2.png
+├── plane_Spaceship_Albedo_3.png
+├── plane_Spaceship_Albedo_4.png
+├── plane_Spaceship_Albedo_5.png
+├── plane_Spaceship_Albedo_6.png
+├── plane_Spaceship_Albedo_7.png
+├── planes
+│   ├── ComPlaneV1.fbx
+│   ├── ComPlaneV1.glb
+│   ├── ComPlaneV1_PolyPackPlanes.png
+│   ├── ComPlaneV2.fbx
+│   ├── ComPlaneV2.glb
+│   ├── ComPlaneV2_PolyPackPlanes.png
+│   ├── ComPlaneV3.fbx
+│   ├── ComPlaneV3.glb
+│   ├── ComPlaneV3_PolyPackPlanes.png
+│   ├── EaglePlane.fbx
+│   ├── EaglePlane.glb
+│   ├── EaglePlane_PolyPackPlanes.png
+│   ├── HelicopterV1.fbx
+│   ├── HelicopterV1.glb
+│   ├── HelicopterV1_PolyPackPlanes.png
+│   ├── HelicopterV2.fbx
+│   ├── HelicopterV2.glb
+│   ├── HelicopterV2_PolyPackPlanes.png
+│   ├── LICENSE.txt
+│   ├── LightPlane.fbx
+│   ├── LightPlane.glb
+│   ├── LightPlane_PolyPackPlanes.png
+│   └── Texture
+│       └── PolyPackPlanes.png
+├── player(Copy).gd
+├── player(Copy).gd.uid
+├── player.gd
+├── player.gd.uid
+├── player.gltf
+├── player.tscn
+├── player_Leo_Eyes.png
+├── player_Leo_Hair.png
+├── player_Leo_Hair_7.png
+├── player_Leo_Hair_8.png
+├── player_Leo_Hoodie.png
+├── player_Leo_Pants.png
+├── player_Leo_Shoes.png
+├── player_Leo_Shoes_3.png
+├── player_Leo_Skin.png
+├── playeridle.gltf
+├── playeridle_Leo_Eyes.png
+├── playeridle_Leo_Hair.png
+├── playeridle_Leo_Hair_7.png
+├── playeridle_Leo_Hair_8.png
+├── playeridle_Leo_Hoodie.png
+├── playeridle_Leo_Pants.png
+├── playeridle_Leo_Shoes.png
+├── playeridle_Leo_Shoes_3.png
+├── playeridle_Leo_Skin.png
+├── playerwalk.gltf
+├── playerwalk.res
+├── playerwalk_Leo_Eyes.png
+├── playerwalk_Leo_Hair.png
+├── playerwalk_Leo_Hair_7.png
+├── playerwalk_Leo_Hair_8.png
+├── playerwalk_Leo_Hair_8.png.import-HHbtPE
+├── playerwalk_Leo_Hoodie.png
+├── playerwalk_Leo_Pants.png
+├── playerwalk_Leo_Shoes.png
+├── playerwalk_Leo_Shoes_3.png
+├── playerwalk_Leo_Skin.png
+├── poing-godot-admob-android-v4.6.1.zip
+├── police_car.gd
+├── police_car.gd.uid
+├── police_car.tscn
+├── police_npc.gd
+├── police_npc.gd.uid
+├── policerun_Beardmat_1.png
+├── policerun_Bodymat_1.png
+├── policerun_Bodymat_1_2.png
+├── policerun_Bodymat_1_3.png
+├── policerun_Bottommat_1.png
+├── policerun_Eyewearmat_1.png
+├── policerun_Hairmat_1.png
+├── policerun_Hatmat_1.png
+├── policerun_Moustachemat_1.png
+├── policerun_Shoesmat_1.png
+├── policerun_Topmat_1.png
+├── project.godot
+├── pump-shotgun.png
+├── ragdoll_flop (1).mp3
+├── rain.mp3
+├── rightForearm.gltf
+├── saiken(6).glb
+├── saikenhab.tscn
+├── sand_village.tscn
+├── send.png
+├── settings.png
+├── shinratensei.mp3
+├── shoot.res
+├── songoku(4).glb
+├── songoku(4)_0.jpg
+├── songoku(4)_1.png
+├── songoku(4)_10.jpg
+├── songoku(4)_11.png
+├── songoku(4)_12.jpg
+├── songoku(4)_13.png
+├── songoku(4)_14.jpg
+├── songoku(4)_15.png
+├── songoku(4)_16.jpg
+├── songoku(4)_17.jpg
+├── songoku(4)_18.jpg
+├── songoku(4)_19.png
+├── songoku(4)_2.jpg
+├── songoku(4)_3.png
+├── songoku(4)_4.jpg
+├── songoku(4)_5.png
+├── songoku(4)_6.jpg
+├── songoku(4)_7.png
+├── songoku(4)_8.jpg
+├── songoku(4)_9.png
+├── spawner.gd
+├── spawner.gd.uid
+├── spawnerold.gd
+├── spawnerold.gd.uid
+├── summonsfx.mp3
+├── telephone.png
+├── test_room.tscn
+├── vehicle.png
+├── vehicle_car.gd
+├── vehicle_car.gd.uid
+├── video-camera (1).png
+├── vungle
+│   ├── libs
+│   │   ├── poing-godot-admob-vungle-debug.aar
+│   │   └── poing-godot-admob-vungle-release.aar
+│   ├── poing_godot_admob_vungle.gd
+│   └── poing_godot_admob_vungle.gd.uid
+├── walk.res
+├── waterfall.mp3
+└── world_radio.tscn-hapU2p
+
+107 directories, 2495 files

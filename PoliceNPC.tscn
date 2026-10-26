@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://duxc4robhl72m"]
+
+[ext_resource type="Script" uid="uid://xd1ysi2rb1y6" path="res://police_npc.gd" id="1_q0dd0"]
+[ext_resource type="PackedScene" uid="uid://55le75ealqjk" path="res://newpolicewithgun.gltf" id="2_ln7ut"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7tdxw"]
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_q0dd0"]
+properties/0/path = NodePath(".:rotation")
+properties/0/spawn = true
+properties/0/replication_mode = 1
+properties/1/path = NodePath(".:position")
+properties/1/spawn = true
+properties/1/replication_mode = 1
+properties/2/path = NodePath(".:scale")
+properties/2/spawn = true
+properties/2/replication_mode = 1
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=180784750]
+script = ExtResource("1_q0dd0")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1841761370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9964895, 0)
+shape = SubResource("CapsuleShape3D_7tdxw")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." unique_id=1561234902]
+replication_config = SubResource("SceneReplicationConfig_q0dd0")
+
+[node name="newpolicewithgun" parent="." unique_id=1378230624 instance=ExtResource("2_ln7ut")]
+transform = Transform3D(0.58, 0, 0, 0, 0.58, 0, 0, 0, 0.58, 0, 0, 0)

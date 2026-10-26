@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://ck53crexpqbv5"]
+
+[ext_resource type="Script" uid="uid://c1yu2s6tnkcvp" path="res://loading_screen.gd" id="1_htrc2"]
+[ext_resource type="FontFile" uid="uid://cjyn1vvh45wbd" path="res://Minecraft.ttf" id="2_weff3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g7b7a"]
+bg_color = Color(0.22773299, 0.22773305, 0.2277329, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gyc6d"]
+bg_color = Color(0.6, 1, 0, 1)
+
+[node name="LoadingScreen" type="Control" unique_id=1339091526]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_htrc2")
+
+[node name="BackgroundImage" type="TextureRect" parent="." unique_id=1174405555]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="DarkOverlay" type="ColorRect" parent="." unique_id=479141141]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.5882353)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1063852566]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 571.0
+offset_right = 454.0
+offset_bottom = 637.0
+metadata/_edit_use_anchors_ = true
+
+[node name="PercentLabel" type="Label" parent="VBoxContainer" unique_id=932610389]
+layout_mode = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="VBoxContainer" unique_id=107866852]
+layout_mode = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_g7b7a")
+theme_override_styles/fill = SubResource("StyleBoxFlat_gyc6d")
+show_percentage = false
+
+[node name="TipsLabel" type="Label" parent="." unique_id=2047953367]
+layout_mode = 0
+offset_left = 518.0
+offset_top = 550.0
+offset_right = 558.0
+offset_bottom = 582.0
+theme_override_fonts/font = ExtResource("2_weff3")
+theme_override_font_sizes/font_size = 32
+metadata/_edit_use_anchors_ = true

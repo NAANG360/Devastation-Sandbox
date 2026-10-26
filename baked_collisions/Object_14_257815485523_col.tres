@@ -1,0 +1,4 @@
+[gd_resource type="ConcavePolygonShape3D" format=3]
+
+[resource]
+data = PackedVector3Array(-10.3159, 0, -5.2430997, 10.231299, 0, 16.3022, -10.3159, 0, 16.3022, -10.3159, 0, -5.2430997, 10.231299, 0, -5.2430997, 10.231299, 0, 16.3022)

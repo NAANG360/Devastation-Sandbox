@@ -1,0 +1,24 @@
+# Generated Android build artifacts
+/android/build/
+
+# Godot generated editor cache
+/.godot/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.import-*
+*.uid-*
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local development files
+.DS_Store
+Thumbs.db
+
+# Temporary interrupted-save file
+/world_radio.tscn-hapU2p

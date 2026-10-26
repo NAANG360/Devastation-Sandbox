@@ -1,0 +1,151 @@
+[gd_scene format=3 uid="uid://bg5siiu16t4wy"]
+
+[ext_resource type="Script" uid="uid://b0gd8hrqpvtbb" path="res://player.gd" id="1_3vbl4"]
+[ext_resource type="Script" uid="uid://bakqlkmte46gt" path="res://camera_3d.gd" id="2_6r6vx"]
+[ext_resource type="Texture2D" uid="uid://dbb13m60qh1hn" path="res://kamui.jpg" id="3_i507p"]
+[ext_resource type="AudioStream" uid="uid://chbuyvelrjhb0" path="res://kamuisfx.mp3" id="4_2602c"]
+[ext_resource type="AudioStream" uid="uid://hfsuaog3mb5n" path="res://shinratensei.mp3" id="5_l3001"]
+[ext_resource type="AudioStream" uid="uid://frde45vs2uvv" path="res://summonsfx.mp3" id="6_dsxg1"]
+[ext_resource type="AudioStream" uid="uid://dse6mu5nda0ij" path="res://pistol-shot.mp3" id="7_hmsmm"]
+[ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://addons/virtual_joystick/virtual_joystick_scene.tscn" id="8_ns36f"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_lquwl"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_h2yge"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_0odxb"]
+radius = 5.0
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_0odxb"]
+radius = 20.0
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_1u8w0"]
+radius = 50.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3vbl4"]
+albedo_color = Color(0, 0.43377012, 0.22831574, 1)
+
+[node name="Node3D" type="Node3D" unique_id=1578178226]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1532293101]
+use_collision = true
+size = Vector3(500, 1, 500)
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=76022601]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7114935, 2.0090861, 0)
+motion_mode = 1
+script = ExtResource("1_3vbl4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player" unique_id=327581660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7360034, 0)
+mesh = SubResource("CapsuleMesh_lquwl")
+
+[node name="Camera3D" type="Camera3D" parent="Player/MeshInstance3D" unique_id=1948332425]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.64427376, 0)
+current = true
+far = 250.0
+script = ExtResource("2_6r6vx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=1608493463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.6946912, 0)
+shape = SubResource("CapsuleShape3D_h2yge")
+
+[node name="AdminUI" type="CanvasLayer" parent="Player" unique_id=1960423642]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Player/AdminUI" unique_id=1689430959]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+
+[node name="Button" type="Button" parent="Player/AdminUI/HBoxContainer" unique_id=1282147397]
+layout_mode = 2
+focus_mode = 0
+text = "[1] Kamui"
+
+[node name="PushButton" type="Button" parent="Player/AdminUI/HBoxContainer" unique_id=160348880]
+layout_mode = 2
+focus_mode = 0
+text = "[2] Almighty Push"
+
+[node name="FlightButton" type="Button" parent="Player/AdminUI/HBoxContainer" unique_id=281362862]
+layout_mode = 2
+focus_mode = 0
+text = "[3] Kamui Flight"
+
+[node name="ChibakuButton" type="Button" parent="Player/AdminUI/HBoxContainer" unique_id=1793531703]
+layout_mode = 2
+text = "[4] Chibaku Tensei"
+
+[node name="SummonButton" type="Button" parent="Player/AdminUI/HBoxContainer" unique_id=2088765720]
+layout_mode = 2
+focus_mode = 0
+text = "[5] Summon Nine-Tails"
+
+[node name="BombButton" type="Button" parent="Player/AdminUI/HBoxContainer" unique_id=65919860]
+layout_mode = 2
+focus_mode = 0
+text = "[6] Beast Bomb"
+
+[node name="KamuiZone" type="Area3D" parent="Player" unique_id=1955770244]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4164667, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player/KamuiZone" unique_id=13644793]
+shape = SubResource("CylinderShape3D_0odxb")
+
+[node name="GenjutsuUI" type="CanvasLayer" parent="Player" unique_id=1484134152]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="Player/GenjutsuUI" unique_id=2023051352]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="SharinganImage" type="TextureRect" parent="Player/GenjutsuUI/ColorRect" unique_id=1203389441]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(369.5, 207.5)
+texture = ExtResource("3_i507p")
+
+[node name="KamuiSound" type="AudioStreamPlayer" parent="Player" unique_id=1350758757]
+stream = ExtResource("4_2602c")
+
+[node name="PushZone" type="Area3D" parent="Player" unique_id=1429051883]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player/PushZone" unique_id=1374940029]
+shape = SubResource("SphereShape3D_0odxb")
+
+[node name="PushSound" type="AudioStreamPlayer" parent="Player" unique_id=448543208]
+stream = ExtResource("5_l3001")
+
+[node name="ChibakuZone" type="Area3D" parent="Player" unique_id=323914320]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player/ChibakuZone" unique_id=1705991347]
+shape = SubResource("SphereShape3D_1u8w0")
+
+[node name="SummonSound" type="AudioStreamPlayer" parent="Player" unique_id=1781982628]
+stream = ExtResource("6_dsxg1")
+
+[node name="GunSound" type="AudioStreamPlayer" parent="Player" unique_id=189463857]
+stream = ExtResource("7_hmsmm")
+
+[node name="Virtual Joystick" parent="." unique_id=1529873065 instance=ExtResource("8_ns36f")]
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="." unique_id=256728772]
+transform = Transform3D(0.6793634, -1.6893115, -0.49244773, 3.6718268, 0.4321155, -0.018773131, 0.4636988, -0.946728, 0.8701395, 1.6186738, 5.6740065, 0)
+use_collision = true
+material = SubResource("StandardMaterial3D_3vbl4")

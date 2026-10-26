@@ -1,0 +1,104 @@
+[gd_scene format=3 uid="uid://dlf3dxxgh2m2y"]
+
+[ext_resource type="Texture2D" uid="uid://cn2cpcamv68kr" path="res://fist.png" id="1_0qrqu"]
+[ext_resource type="Texture2D" uid="uid://cbippxsxi00wy" path="res://pistol.png" id="2_mx0kw"]
+[ext_resource type="Texture2D" uid="uid://3a8fqq10d8cc" path="res://pump-shotgun.png" id="3_w4oxd"]
+[ext_resource type="Texture2D" uid="uid://c35tb0vhv6fqf" path="res://assault-rifle.png" id="4_fsbdh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vivmo"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=72711875]
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=805662546]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -27.0
+offset_right = 4.0
+grow_vertical = 0
+theme_override_styles/fill = SubResource("StyleBoxFlat_vivmo")
+step = 0.1
+
+[node name="AttackButton" type="Button" parent="." unique_id=708484869]
+offset_left = 1069.0
+offset_top = 378.00003
+offset_right = 1589.0
+offset_bottom = 898.0
+scale = Vector2(0.26275295, 0.22754288)
+icon = ExtResource("1_0qrqu")
+
+[node name="WheelButton" type="Button" parent="." unique_id=859683153]
+offset_left = 1290.9999
+offset_top = 85.0
+offset_right = 1810.9999
+offset_bottom = 605.0
+scale = Vector2(0.29206097, 0.27350992)
+focus_mode = 0
+icon = ExtResource("2_mx0kw")
+
+[node name="WeaponWheel" type="Control" parent="." unique_id=102172197]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="WeaponWheel" unique_id=750394162]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.5764706)
+
+[node name="BtnFists" type="Button" parent="WeaponWheel" unique_id=188309671]
+layout_mode = 0
+offset_left = 646.0
+offset_top = 30.999996
+offset_right = 1166.0
+offset_bottom = 551.0
+scale = Vector2(0.25, 0.285)
+focus_mode = 0
+icon = ExtResource("1_0qrqu")
+
+[node name="BtnShotgun" type="Button" parent="WeaponWheel" unique_id=844852760]
+layout_mode = 0
+offset_left = 648.0
+offset_top = 365.99997
+offset_right = 1168.0
+offset_bottom = 886.0
+scale = Vector2(0.25, 0.285)
+focus_mode = 0
+icon = ExtResource("3_w4oxd")
+
+[node name="BtnRifle" type="Button" parent="WeaponWheel" unique_id=650059935]
+layout_mode = 0
+offset_left = 462.0
+offset_top = 209.0
+offset_right = 982.0
+offset_bottom = 729.0
+scale = Vector2(0.25, 0.285)
+focus_mode = 0
+icon = ExtResource("4_fsbdh")
+
+[node name="BtnPistol" type="Button" parent="WeaponWheel" unique_id=539893991]
+layout_mode = 0
+offset_left = 817.0
+offset_top = 220.0
+offset_right = 1337.0
+offset_bottom = 740.0
+scale = Vector2(0.25, 0.25)
+focus_mode = 0
+icon = ExtResource("2_mx0kw")
+
+[node name="CarButton" type="Button" parent="WeaponWheel" unique_id=2138270058]
+layout_mode = 0
+offset_left = 621.0
+offset_top = 227.0
+offset_right = 700.0
+offset_bottom = 267.0
+scale = Vector2(2, 2)
+focus_mode = 0
+text = "Cycle Car"

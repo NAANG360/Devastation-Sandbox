@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bmxblnqjnexj"]
+
+[ext_resource type="Script" uid="uid://cqdabwcbd37dt" path="res://city_lights.gd" id="1_7s2pn"]
+
+[node name="CityLights" type="Node" unique_id=838805935 node_paths=PackedStringArray("city_map")]
+script = ExtResource("1_7s2pn")
+city_map = NodePath("")

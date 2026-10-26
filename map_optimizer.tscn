@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cnts41o0c3xkw"]
+
+[ext_resource type="Script" uid="uid://cktdb3vdns7rc" path="res://map_optimizer.gd" id="1_rx7kk"]
+
+[node name="MapOptimizer" type="Node" unique_id=310251827 node_paths=PackedStringArray("city_map")]
+script = ExtResource("1_rx7kk")
+city_map = NodePath("")

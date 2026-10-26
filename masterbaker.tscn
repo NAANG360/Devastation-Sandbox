@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://btbrp0bv2xamg"]
+
+[ext_resource type="Script" uid="uid://yb83i1d68ftg" path="res://masterbaker.gd" id="1_l60ul"]
+[ext_resource type="PackedScene" uid="uid://c0gm8pcvwbjlt" path="res://gyukihab.tscn" id="2_rahe8"]
+[ext_resource type="PackedScene" uid="uid://c1wgqtrx8pb58" path="res://matatabihab.tscn" id="3_cdsg4"]
+[ext_resource type="PackedScene" uid="uid://bds2edi48e6mj" path="res://gokuhab.tscn" id="4_6udp7"]
+[ext_resource type="PackedScene" uid="uid://xxm45mswu4e" path="res://kuramahab.tscn" id="5_fmwrt"]
+
+[node name="masterbaker" type="Node" unique_id=811606118]
+script = ExtResource("1_l60ul")
+maps_to_bake = Array[PackedScene]([ExtResource("2_rahe8"), ExtResource("3_cdsg4"), ExtResource("4_6udp7"), ExtResource("5_fmwrt")])

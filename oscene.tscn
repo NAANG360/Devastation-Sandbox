@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://wt46guuw187g"]
+
+[ext_resource type="PackedScene" uid="uid://ccow2j2dqor6o" path="res://low_poly_city.glb" id="1_s7stp"]
+
+[node name="Sketchfab_Scene" unique_id=144407034 instance=ExtResource("1_s7stp")]

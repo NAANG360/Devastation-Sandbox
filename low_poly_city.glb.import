@@ -1,0 +1,96 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://ccow2j2dqor6o"
+path="res://.godot/imported/low_poly_city.glb-c0a11fa03aa78e1933d6c98a0cf000f7.scn"
+
+[deps]
+
+source_file="res://low_poly_city.glb"
+dest_files=["res://.godot/imported/low_poly_city.glb-c0a11fa03aa78e1933d6c98a0cf000f7.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_1_002_Color_0_10/Object_24": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_1_Color_0_0/Object_4": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_005_Color_0_6/Object_16": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_010_Color_0_1/Object_6": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_011_Color_0_2/Object_8": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_012_Color_0_3/Object_10": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_013_Color_0_4/Object_12": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_018_Color_0_7/Object_18": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_019_Color_0_8/Object_20": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_020_Color_0_5/Object_14": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Road_2_021_Color_0_9/Object_22": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/School Bus_1 BL Tire_Color_0_1321": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/School Bus_1 BR Tire_Color_0_1319": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/School Bus_1 FL Tire_Color_0_1320": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/School Bus_1 Lod_0_Color Bloom_001_0_1318": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/School Bus_1 Lod_0_Color_0_1317": {
+"import/skip_import": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=0

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dr0so4wteph34"]
+
+[ext_resource type="Script" uid="uid://bicvu6gltm2d7" path="res://almond_water.gd" id="1_bwdt7"]
+
+[node name="AlmondWater" type="Area3D" unique_id=1800846624]
+script = ExtResource("1_bwdt7")

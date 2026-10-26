@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://12dwlgyhdcot"]
+
+[ext_resource type="Script" uid="uid://cw23bynr315ql" path="res://airport_gate.gd" id="1_iuwlg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g7b7a"]
+size = Vector3(7.770447, 7.713379, 1.925293)
+
+[node name="AirportGate" type="Area3D" unique_id=622665901]
+script = ExtResource("1_iuwlg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=677022974]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.183052, 4.947872, -1.5739229)
+shape = SubResource("BoxShape3D_g7b7a")

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://db7t7l4oij80v"]
+
+[ext_resource type="Script" uid="uid://b2vntr2v3rhkk" path="res://backrooms_door.gd" id="1_hkxu5"]
+
+[node name="Area3D" type="Area3D" unique_id=170161806]
+script = ExtResource("1_hkxu5")

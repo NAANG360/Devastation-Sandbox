@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://bec7hx3g8gc22"]
+
+[ext_resource type="Script" uid="uid://g0dtjjff14i" path="res://login_screen.gd" id="1_aidc3"]
+
+[node name="LoginScreen" type="Control" unique_id=2137574128]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_aidc3")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1638211736]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="UserBox" type="LineEdit" parent="ColorRect" unique_id=1930404549]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -132.0
+offset_top = -82.0
+offset_right = 205.0
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+placeholder_text = "Username "
+alignment = 1
+
+[node name="PassBox" type="LineEdit" parent="ColorRect" unique_id=1669969335]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -133.0
+offset_top = 5.0
+offset_right = 202.0
+offset_bottom = 67.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+placeholder_text = "Password"
+alignment = 1
+secret = true
+secret_character = "*"
+
+[node name="LoginBtn" type="Button" parent="ColorRect" unique_id=1630160561]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -450.0
+offset_top = -171.0
+offset_right = -274.0
+offset_bottom = -117.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 32
+text = "Login"
+
+[node name="RegisterBtn" type="Button" parent="ColorRect" unique_id=1556052521]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 331.0
+offset_top = -177.0
+offset_right = 575.0
+offset_bottom = -124.0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 32
+text = "Create Account"
+
+[node name="StatusLabel" type="Label" parent="ColorRect" unique_id=1256793198]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.15972222
+anchor_top = 0.027777778
+anchor_right = -0.15972222
+anchor_bottom = 0.027777778
+offset_left = 869.0
+offset_top = 136.0
+offset_right = 1216.0
+offset_bottom = 204.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=462129741]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.09201389
+anchor_top = 0.012345679
+anchor_right = 0.09201389
+anchor_bottom = 0.012345679
+offset_left = 294.0
+offset_top = 39.0
+offset_right = 1005.0
+offset_bottom = 106.0
+theme_override_font_sizes/font_size = 48
+text = "Login To Devastation Sandbox "
+metadata/_edit_use_anchors_ = true
+
+[node name="WebConnection" type="HTTPRequest" parent="." unique_id=680736798]

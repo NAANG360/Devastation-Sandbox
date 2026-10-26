@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://dnow6b275c0f4"]
+
+[ext_resource type="Script" uid="uid://dxyoc82vx1s6b" path="res://c_4.gd" id="1_03bm4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_th21j"]
+albedo_color = Color(0, 0.2, 0, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8355k"]
+custom_solver_bias = 0.1
+size = Vector3(0.2, 0.06748047, 0.25186157)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ghfln"]
+radius = 10.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sk040"]
+size = Vector3(0.123, 0.004, 0.172)
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_03bm4"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/replication_mode = 1
+properties/1/path = NodePath(".:rotation")
+properties/1/spawn = true
+properties/1/replication_mode = 1
+properties/2/path = NodePath(".:scale")
+properties/2/spawn = true
+properties/2/replication_mode = 1
+
+[node name="C4" type="RigidBody3D" unique_id=1058873424]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15005615, 0)
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_03bm4")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=982951977]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01859131, -0.075097665)
+size = Vector3(0.2, 0.06281738, 0.25019532)
+material = SubResource("StandardMaterial3D_th21j")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D" unique_id=1609142259]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.0246348, 0, 0.0033691376, -0.0037176982)
+shape = SubResource("BoxShape3D_8355k")
+
+[node name="BlastZone" type="Area3D" parent="CSGBox3D/CollisionShape3D" unique_id=408469736]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D/CollisionShape3D/BlastZone" unique_id=1969862115]
+shape = SubResource("SphereShape3D_ghfln")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=623794539]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.012292955, 0.027936757, -0.06662287)
+size = Vector3(0.1228418, 0.0038549807, 0.17203614)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D2" unique_id=736187791]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00031009316, 0)
+shape = SubResource("BoxShape3D_sk040")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." unique_id=1914886849]
+replication_config = SubResource("SceneReplicationConfig_03bm4")

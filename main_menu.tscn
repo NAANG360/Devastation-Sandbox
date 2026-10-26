@@ -1,0 +1,160 @@
+[gd_scene format=3 uid="uid://crev2inf1u6xe"]
+
+[ext_resource type="Script" uid="uid://bqqnggp4nv32m" path="res://main_menu.gd" id="1_06t4h"]
+[ext_resource type="Script" uid="uid://c7m3ihv4c3sqr" path="res://canvas_layer.gd" id="2_fu7sn"]
+[ext_resource type="Texture2D" uid="uid://b7g5bup348g52" path="res://settings.png" id="3_jix8l"]
+
+[node name="MainMenu" type="Control" unique_id=100517663]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_06t4h")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=163948250]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.043137256, 0.05882353, 0.09803922, 1)
+
+[node name="PlayButton" type="Button" parent="." unique_id=2018558121]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -69.0
+offset_top = -15.5
+offset_right = 69.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Start Game"
+
+[node name="AdminPanel" type="Panel" parent="." unique_id=1389773235]
+visible = false
+custom_minimum_size = Vector2(500, 250)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AdminPanel" unique_id=35245714]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="AdminPanel/VBoxContainer" unique_id=124949252]
+layout_mode = 2
+text = "Admin Login"
+horizontal_alignment = 1
+
+[node name="NameEdit" type="LineEdit" parent="AdminPanel/VBoxContainer" unique_id=35491034]
+layout_mode = 2
+placeholder_text = "Enter Name"
+alignment = 1
+
+[node name="SecretEdit" type="LineEdit" parent="AdminPanel/VBoxContainer" unique_id=591564228]
+layout_mode = 2
+placeholder_text = "Secret"
+alignment = 1
+secret = true
+
+[node name="AdminLoginButton" type="Button" parent="AdminPanel/VBoxContainer" unique_id=703361993]
+layout_mode = 2
+text = "LOGIN"
+
+[node name="CloseButton" type="Button" parent="AdminPanel/VBoxContainer" unique_id=2024927198]
+layout_mode = 2
+text = "Cancel"
+
+[node name="StatusLabel" type="Label" parent="AdminPanel/VBoxContainer" unique_id=1134936338]
+layout_mode = 2
+
+[node name="SecretTriggerButton" type="Button" parent="." unique_id=87960460]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.91200006
+anchor_right = 1.0
+anchor_bottom = 0.15400001
+offset_left = 10.375977
+offset_right = -1.0
+offset_bottom = -3.7920074
+grow_horizontal = 0
+flat = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2097162518]
+script = ExtResource("2_fu7sn")
+
+[node name="SettingsBtn" type="Button" parent="CanvasLayer" unique_id=1644542318]
+offset_left = 46.0
+offset_top = 27.0
+offset_right = 566.0
+offset_bottom = 547.0
+scale = Vector2(0.15, 0.15)
+icon = ExtResource("3_jix8l")
+
+[node name="SettingsPanel" type="Panel" parent="CanvasLayer" unique_id=2033673612]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -359.0
+offset_top = -108.0
+offset_right = 391.0
+offset_bottom = 142.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+
+[node name="Label" type="Label" parent="CanvasLayer/SettingsPanel" unique_id=1726282783]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -48.5
+offset_right = 48.5
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Settings"
+horizontal_alignment = 1
+
+[node name="SteeringToggle" type="CheckButton" parent="CanvasLayer/SettingsPanel" unique_id=71511091]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -177.0
+offset_top = -17.0
+offset_right = 42.0
+offset_bottom = 14.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Steering Wheel Toggle"
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="AdminPanel/VBoxContainer/AdminLoginButton" to="." method="_on_admin_login_button_pressed"]
+[connection signal="pressed" from="AdminPanel/VBoxContainer/CloseButton" to="." method="_on_close_button_pressed"]
+[connection signal="pressed" from="SecretTriggerButton" to="." method="_on_secret_trigger_button_pressed"]

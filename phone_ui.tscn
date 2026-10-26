@@ -1,0 +1,223 @@
+[gd_scene format=3 uid="uid://b77rbcathpw4q"]
+
+[ext_resource type="Script" uid="uid://q2oiv1u2ngva" path="res://phone_ui.gd" id="1_11aml"]
+[ext_resource type="Texture2D" uid="uid://c8uxsog8l86ws" path="res://Pui/1000105233-Photoroom.png" id="1_s8j8e"]
+
+[node name="PhoneUI" type="CanvasLayer" unique_id=882744185]
+script = ExtResource("1_11aml")
+
+[node name="PhoneContainer" type="Control" parent="." unique_id=1025994637]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="PhoneTexture" type="TextureRect" parent="PhoneContainer" unique_id=1105821166]
+layout_mode = 0
+offset_left = -204.0
+offset_top = -357.0
+offset_right = 12.0
+offset_bottom = 15.0
+texture = ExtResource("1_s8j8e")
+expand_mode = 1
+
+[node name="ScreenArea" type="Control" parent="PhoneContainer/PhoneTexture" unique_id=1697962078]
+anchors_preset = 0
+offset_left = 10.0
+offset_top = 51.0
+offset_right = 204.0
+offset_bottom = 365.0
+
+[node name="HomeScreen" type="Control" parent="PhoneContainer/PhoneTexture/ScreenArea" unique_id=1053803623]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AppGrid" type="GridContainer" parent="PhoneContainer/PhoneTexture/ScreenArea/HomeScreen" unique_id=1344748475]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 25.000004
+offset_right = 84.0
+offset_bottom = 65.0
+scale = Vector2(2.5, 2.5)
+columns = 2
+
+[node name="DialerAppBtn" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/HomeScreen/AppGrid" unique_id=1832626941]
+layout_mode = 2
+text = "📞"
+
+[node name="ColorAppBtn" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/HomeScreen/AppGrid" unique_id=1842758321]
+layout_mode = 2
+text = "🚘"
+
+[node name="DialerScreen" type="Control" parent="PhoneContainer/PhoneTexture/ScreenArea" unique_id=685351179]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen" unique_id=294402337]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -98.0
+offset_top = -40.0
+offset_right = 98.0
+grow_horizontal = 2
+grow_vertical = 0
+color = Color(0.17254902, 0.17254902, 0.17254902, 0.827451)
+
+[node name="HomeBtn" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen" unique_id=893245133]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -19.0
+offset_top = -38.0
+offset_right = 25.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 21
+text = "🏠"
+
+[node name="NumberDisplay" type="Label" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen" unique_id=575525592]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -100.0
+offset_top = 2.0
+offset_right = 97.0
+offset_bottom = 45.0
+grow_horizontal = 2
+horizontal_alignment = 1
+
+[node name="KeypadGrid" type="GridContainer" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen" unique_id=966226577]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -33.5
+offset_top = -68.0
+offset_right = 33.5
+offset_bottom = 68.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 3
+
+[node name="1" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=307895031]
+layout_mode = 2
+text = "1"
+
+[node name="2" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=18233184]
+layout_mode = 2
+text = "2"
+
+[node name="3" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=1357144179]
+layout_mode = 2
+text = "3"
+
+[node name="4" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=30393497]
+layout_mode = 2
+text = "4"
+
+[node name="5" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=1233987162]
+layout_mode = 2
+text = "5"
+
+[node name="6" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=547517394]
+layout_mode = 2
+text = "6"
+
+[node name="7" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=293185354]
+layout_mode = 2
+text = "7"
+
+[node name="8" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=37177593]
+layout_mode = 2
+text = "8"
+
+[node name="9" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=902811823]
+layout_mode = 2
+text = "9"
+
+[node name="CallBtn" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=1269817616]
+layout_mode = 2
+text = "📞"
+
+[node name="0" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/DialerScreen/KeypadGrid" unique_id=230918815]
+layout_mode = 2
+text = "0"
+
+[node name="ColorScreen" type="Control" parent="PhoneContainer/PhoneTexture/ScreenArea" unique_id=2103826937]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="PhoneContainer/PhoneTexture/ScreenArea/ColorScreen" unique_id=188278560]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -98.0
+offset_top = -40.0
+offset_right = 98.0
+grow_horizontal = 2
+grow_vertical = 0
+color = Color(0.17254902, 0.17254902, 0.17254902, 0.827451)
+
+[node name="HomeBtn" type="Button" parent="PhoneContainer/PhoneTexture/ScreenArea/ColorScreen" unique_id=2079982211]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -19.0
+offset_top = -38.0
+offset_right = 25.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 21
+text = "🏠"
+
+[node name="ColorGrid" type="GridContainer" parent="PhoneContainer/PhoneTexture/ScreenArea/ColorScreen" unique_id=724995981]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -90.0
+offset_top = -80.0
+offset_right = -23.0
+offset_bottom = 56.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.7328405, 1.4045203)
+columns = 3

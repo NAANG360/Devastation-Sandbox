@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bpo2yi33umkpi"]
+
+[ext_resource type="Script" uid="uid://kx4nwrpwca3v" path="res://batch_baker.gd" id="1_qtspv"]
+
+[node name="Node" type="Node" unique_id=548481717]
+script = ExtResource("1_qtspv")
+map_scenes = Array[String](["res://maincity.tscn", "res://altarmap.tscn"])

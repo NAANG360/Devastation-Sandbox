@@ -1,0 +1,480 @@
+[gd_scene format=3 uid="uid://cnmh8u4m0siwb"]
+
+[ext_resource type="Script" uid="uid://dx6yhhwe4bpt7" path="res://network_manager.gd" id="1_v3k62"]
+[ext_resource type="PackedScene" uid="uid://cof4lffy7xcsl" path="res://player.tscn" id="2_8guok"]
+[ext_resource type="Texture2D" uid="uid://bl2pfyft4xu05" path="res://send.png" id="2_qo7x0"]
+[ext_resource type="FontFile" uid="uid://cjyn1vvh45wbd" path="res://Minecraft.ttf" id="4_1cifj"]
+[ext_resource type="Texture2D" uid="uid://b7g5bup348g52" path="res://settings.png" id="4_bx3ue"]
+[ext_resource type="Script" uid="uid://bqf2by3nhrenc" path="res://about_screen.gd" id="6_bbjke"]
+[ext_resource type="Texture2D" uid="uid://4bi66ekr0bg8" path="res://cross_icon.png" id="7_c84si"]
+
+[node name="NetworkManager" type="Node3D" unique_id=955883502]
+script = ExtResource("1_v3k62")
+player_scene = ExtResource("2_8guok")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1806372598]
+layer = 5
+
+[node name="ChatToggleBtn" type="Button" parent="CanvasLayer" unique_id=865170277]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "💬 Chat"
+
+[node name="ChatPanel" type="Panel" parent="CanvasLayer" unique_id=420679976]
+visible = false
+offset_right = 500.0
+offset_bottom = 350.0
+
+[node name="ChatDisplay" type="RichTextLabel" parent="CanvasLayer/ChatPanel" unique_id=601816180]
+layout_mode = 0
+offset_right = 500.0
+offset_bottom = 300.0
+
+[node name="ChatInput" type="LineEdit" parent="CanvasLayer/ChatPanel" unique_id=1955215619]
+layout_mode = 0
+offset_top = 310.0
+offset_right = 715.0
+offset_bottom = 510.0
+scale = Vector2(0.6264766, 0.18843803)
+theme_override_font_sizes/font_size = 24
+
+[node name="SendBtn" type="Button" parent="CanvasLayer/ChatPanel" unique_id=352036240]
+layout_mode = 0
+offset_left = 447.0
+offset_top = 306.0
+offset_right = 967.0
+offset_bottom = 826.0
+scale = Vector2(0.1, 0.08)
+icon = ExtResource("2_qo7x0")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=2101456892]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -140.0
+offset_bottom = 66.0
+grow_horizontal = 0
+
+[node name="HostNameInput" type="LineEdit" parent="CanvasLayer/VBoxContainer" unique_id=1456885458]
+layout_mode = 2
+placeholder_text = "Enter Server Name To Host"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" unique_id=64081815]
+layout_mode = 2
+
+[node name="LobbyList" type="OptionButton" parent="CanvasLayer/VBoxContainer/HBoxContainer" unique_id=54749222]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="RefreshBtn" type="Button" parent="CanvasLayer/VBoxContainer/HBoxContainer" unique_id=514440866]
+layout_mode = 2
+text = "Refresh LAN"
+
+[node name="LeftMenuPanel" type="ColorRect" parent="CanvasLayer" unique_id=1623328594]
+offset_right = 358.0
+offset_bottom = 649.0
+color = Color(0, 0, 0, 0.39215687)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/LeftMenuPanel" unique_id=1406302450]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartBtn" type="Button" parent="CanvasLayer/LeftMenuPanel" unique_id=1005113708]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 218.0
+offset_right = 275.0
+offset_bottom = 276.0
+theme_override_font_sizes/font_size = 36
+text = "Start"
+
+[node name="HostBtn" type="Button" parent="CanvasLayer/LeftMenuPanel" unique_id=1404285622]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -98.0
+offset_top = -16.5
+offset_right = 95.0
+offset_bottom = 41.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 36
+text = "Host"
+
+[node name="QuitBtn" type="Button" parent="CanvasLayer/LeftMenuPanel" unique_id=185291449]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -98.0
+offset_top = 72.5
+offset_right = 95.0
+offset_bottom = 130.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 36
+text = "Quit"
+
+[node name="AboutBtn" type="Button" parent="CanvasLayer/LeftMenuPanel" unique_id=754655554]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -98.0
+offset_top = 159.5
+offset_right = 95.0
+offset_bottom = 217.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 36
+text = "About"
+
+[node name="Label" type="Label" parent="CanvasLayer/LeftMenuPanel" unique_id=1969888643]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 50.0
+offset_right = 360.0
+offset_bottom = 163.0
+theme_override_fonts/font = ExtResource("4_1cifj")
+theme_override_font_sizes/font_size = 40
+text = "DEVASTATION 
+SANDBOX"
+horizontal_alignment = 1
+
+[node name="SecretTriggerButton" type="Button" parent="CanvasLayer" unique_id=853273854]
+custom_minimum_size = Vector2(100, 100)
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -100.0
+grow_horizontal = 0
+grow_vertical = 0
+flat = true
+
+[node name="AdminPanel" type="Panel" parent="CanvasLayer" unique_id=2013089932]
+visible = false
+custom_minimum_size = Vector2(500, 250)
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -500.0
+offset_top = -125.0
+offset_bottom = 125.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/AdminPanel" unique_id=837761510]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/AdminPanel/VBoxContainer" unique_id=967400982]
+layout_mode = 2
+text = "Admin Login"
+horizontal_alignment = 1
+
+[node name="NameEdit" type="LineEdit" parent="CanvasLayer/AdminPanel/VBoxContainer" unique_id=165730469]
+layout_mode = 2
+placeholder_text = "Enter Name"
+alignment = 1
+
+[node name="SecretEdit" type="LineEdit" parent="CanvasLayer/AdminPanel/VBoxContainer" unique_id=1358632204]
+layout_mode = 2
+placeholder_text = "Secret"
+alignment = 1
+secret = true
+
+[node name="AdminLoginButton" type="Button" parent="CanvasLayer/AdminPanel/VBoxContainer" unique_id=1671497779]
+layout_mode = 2
+text = "LOGIN"
+
+[node name="CloseButton" type="Button" parent="CanvasLayer/AdminPanel/VBoxContainer" unique_id=744404788]
+layout_mode = 2
+text = "Cancel"
+
+[node name="StatusLabel" type="Label" parent="CanvasLayer/AdminPanel/VBoxContainer" unique_id=538105971]
+layout_mode = 2
+
+[node name="SettingsPanel" type="Panel" parent="CanvasLayer" unique_id=657513345]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -359.0
+offset_top = -108.0
+offset_right = 391.0
+offset_bottom = 142.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+
+[node name="Label" type="Label" parent="CanvasLayer/SettingsPanel" unique_id=2083894430]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -48.5
+offset_right = 48.5
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Settings"
+horizontal_alignment = 1
+
+[node name="SteeringToggle" type="CheckButton" parent="CanvasLayer/SettingsPanel" unique_id=886464272]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -177.0
+offset_top = -17.0
+offset_right = 42.0
+offset_bottom = 14.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Steering Wheel Toggle"
+
+[node name="SettingsBtn" type="Button" parent="CanvasLayer" unique_id=1247917]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -80.0
+offset_top = -79.0
+offset_right = 440.0
+offset_bottom = 441.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(0.15, 0.15)
+icon = ExtResource("4_bx3ue")
+metadata/_edit_use_anchors_ = true
+
+[node name="AboutScreen" type="Control" parent="CanvasLayer" unique_id=1720091237]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("6_bbjke")
+
+[node name="Background" type="ColorRect" parent="CanvasLayer/AboutScreen" unique_id=623331148]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.80784315)
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/AboutScreen" unique_id=428176598]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -537.0
+offset_top = -269.0
+offset_right = 539.0
+offset_bottom = 279.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1635051, 0.16350532, 0.16350523, 1)
+
+[node name="yes" type="ColorRect" parent="CanvasLayer/AboutScreen/Panel" unique_id=606857813]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 53.0
+grow_horizontal = 2
+color = Color(0, 0, 0, 0.7411765)
+
+[node name="Title" type="Label" parent="CanvasLayer/AboutScreen/Panel" unique_id=352510196]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -69.5
+offset_right = 69.5
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 32
+text = "ABOUT & CREDITS"
+
+[node name="CreditsText" type="RichTextLabel" parent="CanvasLayer/AboutScreen/Panel" unique_id=867244559]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -539.0
+offset_top = -222.0
+offset_right = 541.0
+offset_bottom = 278.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "[center][b][color=#00bfff]-- GAME TITLE --[/color][/b][/center]
+Developed by ShouryLmfao
+
+[center][b][color=#00bfff]-- ENGINE & SOFTWARE --[/color][/b][/center]
+[b]Powered by Godot Engine[/b]
+Copyright (c) 2014-present Godot Engine contributors.
+License: https://godotengine.org/license
+
+[center][b][color=#00bfff]-- 3D ASSETS & ATTRIBUTION --[/color][/b][/center]
+This game utilizes 3D models licensed under Creative Commons Attribution (CC BY 4.0).
+
+[b]\"Low Poly Mega Pack-Low Poly City\"[/b] 
+Created by [i]Bunkers[/i]
+Source: Sketchfab.com
+
+[b]\"Ancient Temple\"[/b] 
+Created by [i]Jen S Abbott (@jsabbott)[/i]
+Source: Sketchfab.com
+
+[b]\"Sylized Low-Poly Floating Island\"[/b]
+Created by [i]Thales Farah (@thales.farah)[/i]
+Source: Sketchfab.com
+
+[b]\"Low Poly Mountain Free\"[/b]
+Created by [i]Poly Craftsman (@lowpolyartwork)[/i]
+Source: Sketchfab.com
+
+[b]\"Pyramid\"[/b]
+Created by [i]Mirfen[/i]
+Source: Sketchfab.com
+
+[b]\"Swamphouse\"[/b]
+Created by [i]pisachoff[/i]
+Source: Sketchfab.com
+
+[b]\"Mini-scene of an exotic swamp\"[/b] (Modified)
+Created by [i]_Ouroboros_[/i]
+Source: Sketchfab.com
+
+[b]\"Crystal Caverns\"[/b] (Modified)
+Created by [i]cubical.xyz (@cubical)[/i]
+Source: Sketchfab.com
+
+[b]\"Coral Reef\"[/b]
+Created by [i]libblekibble[/i]
+Source: Sketchfab.com
+
+[b]\"Dark-side cave\"[/b]
+Created by [i]diaspora.[/i]
+Source: Sketchfab.com
+
+[b]\"Mystic Forest\"[/b]
+Created by [i]Victor_Lippi[/i]
+Source: Sketchfab.com
+
+[b]\"Low Poly Desert\"[/b]
+Created by [i]EdwiixGG[/i]
+Source: Sketchfab.com
+
+[b]\"2015 Toyota Fortuner\"[/b]
+Created by [i]BHP3D[/i]
+Source: Sketchfab.com
+
+[b]\"Land Rover Range Rover Sport - 2023\"[/b]
+Created by [i]unntech[/i]
+Source: Sketchfab.com
+
+[b]\"Land Rover Defender 110\"[/b]
+Created by [i]shreyanshchaurasia13[/i]
+Source: Sketchfab.com
+
+[b]\"Toyota Land Cruiser (J200) 2017\"[/b]
+Created by [i]David_Holiday[/i]
+Source: Sketchfab.com
+
+[b]\"Indian Police\"[/b]
+Created by [i]soni.ravi206[/i]
+Source: Sketchfab.com
+
+[b]\"FREE Animated Pump Shotgun\"[/b]
+Created by [i]mostafaebrahiem1998[/i]
+Source: Sketchfab.com
+
+[b]\"M16 Assault Rifle\"[/b]
+Created by [i]Mateusz Woliński[/i]
+Source: Sketchfab.com
+
+[b]\"Call of Duty: Black Ops Cold War - Magnum\"[/b]
+Created by [i]thientrung2004pr (@U. SSCIFI)[/i]
+Source: Sketchfab.com
+
+[b]\"KURAMA ANIMATION FREE FIRE\"[/b]
+Created by [i]rocklee.ff (@rocklee.ff123)[/i]
+Source: Sketchfab.com
+
+[b]\"Ben10 3d Null Void\"[/b]
+Created by [i]3D model lover (@gymbaz941)[/i]
+Source: Sketchfab.com
+
+[b]\"Original Backrooms\"[/b]
+Source: sketchfab.com/3d-models/original-backrooms-e5c6b30995ff442d9852a1dd697aaef1
+
+[b]\"Backrooms Entity\"[/b]
+Source: sketchfab.com/3d-models/backrooms-entity-fcd3af4ee1a34588a5436cbf11837d29
+
+[b]\"Leo\" (Player Character Model)[/b]
+Provided by [i]Prisma3D[/i]
+
+[center][b][color=#00bfff]-- UI & GRAPHICS --[/color][/b][/center]
+[b]UI Icons[/b]
+Icons made by [i]Freepik[/i] and other contributing authors from [i]Flaticon.com[/i]
+
+[b]Cross Icon[/b]
+Designed by [i]Pngtree[/i]
+Source: https://pngtree.com/freepng/vector-cross-icon_4184842.html?sol=downref&id=bef
+
+[center][b][color=#00bfff]-- MUSIC & AUDIO --[/color][/b][/center]
+[b]Original Soundtrack[/b]
+AI-Generated Audio
+
+[center][b][color=#00bfff]-- SPECIAL THANKS --[/color][/b][/center]
+To my cousin, for giving me this idea.
+To the open-source Godot community, my testers, and the players.
+
+[center][b][color=#00bfff]-- DEDICATION --[/color][/b][/center]
+Rest in Peace to my Uncle Abhijeet Anand, who was dear to everyone's heart.
+"
+
+[node name="CloseBtn" type="Button" parent="CanvasLayer/AboutScreen/Panel" unique_id=1127148138]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -52.0
+offset_right = 980.0
+offset_bottom = 1032.0
+grow_horizontal = 0
+scale = Vector2(0.052, 0.052)
+icon = ExtResource("7_c84si")
