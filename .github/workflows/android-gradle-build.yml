@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   android-debug:
-    name: Export Android APK
+    name: Export Android APK with Gradle
     runs-on: ubuntu-24.04
     timeout-minutes: 90
     env:
@@ -35,17 +35,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      # The previous run failed here because android-actions/setup-android@v3
-      # attempted to install the obsolete SDK package "tools". Use the runner's
-      # installed command-line tools directly and install only valid package IDs.
       - name: Install Android SDK packages
         shell: bash
         run: |
           set -euo pipefail
-          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
-          if [[ ! -x "$SDKMANAGER" ]]; then
-            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -path '*/bin/sdkmanager' -type f | sort -V | tail -n 1)"
-          fi
+          SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -path '*/bin/sdkmanager' -type f | sort -V | tail -n 1)"
           test -x "$SDKMANAGER"
           yes | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install \
@@ -70,17 +64,29 @@ jobs:
           echo "GODOT_BIN=$GODOT_BIN" >> "$GITHUB_ENV"
           "$GODOT_BIN" --headless --version
 
-      - name: Install matching Godot export templates
+      - name: Download and install matching Godot templates
         shell: bash
         run: |
           set -euo pipefail
           curl -fL --retry 3 \
             "https://github.com/godotengine/godot/releases/download/4.7.1-stable/Godot_v4.7.1-stable_export_templates.tpz" \
             -o "$RUNNER_TEMP/godot/templates.tpz"
-          mkdir -p "$RUNNER_TEMP/godot/templates"
+          mkdir -p "$RUNNER_TEMP/godot/templates" "$HOME/.local/share/godot/export_templates/4.7.1.stable"
           unzip -q "$RUNNER_TEMP/godot/templates.tpz" -d "$RUNNER_TEMP/godot/templates"
           test -d "$RUNNER_TEMP/godot/templates/templates"
           cp -a "$RUNNER_TEMP/godot/templates/templates/." "$HOME/.local/share/godot/export_templates/4.7.1.stable/"
+          # This preset explicitly enables gradle_build/use_gradle_build=true.
+          # Godot's Android Gradle export requires the android_source.zip project
+          # template installed into the project at android/build; export templates
+          # alone are not sufficient.
+          SOURCE_TEMPLATE="$(find "$RUNNER_TEMP/godot/templates" -type f -name 'android_source.zip' -print -quit)"
+          test -n "$SOURCE_TEMPLATE"
+          mkdir -p android/build
+          unzip -q -o "$SOURCE_TEMPLATE" -d android/build
+          test -f android/build/gradlew
+          chmod +x android/build/gradlew
+          echo "Installed Gradle template from $SOURCE_TEMPLATE"
+          find android/build -maxdepth 2 -type f | head -n 30
 
       - name: Cache Gradle dependencies
         uses: actions/cache@v4
@@ -88,7 +94,7 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-          key: gradle-${{ runner.os }}-${{ hashFiles('export_presets.cfg', 'project.godot') }}
+          key: gradle-${{ runner.os }}-${{ hashFiles('export_presets.cfg', 'project.godot', 'android/build/**') }}
           restore-keys: |
             gradle-${{ runner.os }}-
 
@@ -98,10 +104,12 @@ jobs:
           set -euo pipefail
           test -f project.godot
           test -f export_presets.cfg
+          grep -q '^gradle_build/use_gradle_build=true$' export_presets.cfg
+          test -f android/build/gradlew
           "$GODOT_BIN" --headless --editor --path "$GITHUB_WORKSPACE" --import
           "$GODOT_BIN" --headless --path "$GITHUB_WORKSPACE" --quit
 
-      - name: Export Android debug APK
+      - name: Export Android debug APK using Gradle
         shell: bash
         run: |
           set -euo pipefail
@@ -111,6 +119,7 @@ jobs:
             "artifacts/DevastationSandbox-v0.69.50-debug.apk"
           test -s artifacts/DevastationSandbox-v0.69.50-debug.apk
           file artifacts/DevastationSandbox-v0.69.50-debug.apk
+          unzip -t artifacts/DevastationSandbox-v0.69.50-debug.apk
 
       - name: Upload APK artifact
         if: success()
@@ -125,9 +134,10 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: godot-android-build-diagnostics
+          name: godot-android-gradle-diagnostics
           path: |
             ~/.gradle/daemon/
             ~/.local/share/godot/
+            android/build/build/outputs/
           if-no-files-found: ignore
           retention-days: 7
