@@ -57,4 +57,5 @@ ai_assistant_hub/preferences/always_scroll_to_bottom=false
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
 textures/vram_compression/import_s3tc_bptc=true
+textures/vram_compression/import_etc2_astc=true
 lights_and_shadows/directional_shadow/size.mobile=1024
